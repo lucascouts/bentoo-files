@@ -1,0 +1,52 @@
+#
+x11-apps/xinit -minimal
+
+#
+net-misc/networkmanager -modemmanager -ppp
+gnome-extra/nm-applet -modemmanager
+
+#
+app-crypt/pinentry gnome-keyring
+
+#
+media-libs/mesa gles1 gles2 vulkan xvmc
+x11-apps/mesa-progs egl gles2
+
+# required by media-video/simplescreenrecorder.
+dev-libs/libpcre pcre16
+dev-libs/libpcre2 pcre16
+
+#
+x11-wm/openbox imlib
+
+### resolve python_single_target dependence.
+
+app-text/asciidoc python_single_target_python2_7
+media-gfx/fontforge python_single_target_python2_7
+
+sys-devel/distcc python_single_target_python3_6
+media-gfx/blender python_single_target_python3_6
+
+virtual/wine staging
+app-emulation/wine-staging -ffmpeg vkd3d vulkan
+
+# required by app-misc/neofetch
+www-client/w3m imlib
+
+#
+x11-libs/libdrm video_cards_radeon
+
+#
+dev-lang/rust-bin cargo
+
+# dependence of =x11-libs/bamf-0.5.3
+x11-libs/libwnck startup-notification
+
+#
+app-office/libreoffice -kde
+
+# GLSA 201810-09 -> https://security.gentoo.org/glsa/201810-09
+x11-base/xorg-server -suid
+
+#
+net-libs/nodejs inspector
