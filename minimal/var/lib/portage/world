@@ -12,7 +12,7 @@ app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
 games-util/steam-launcher
-mail-client/thunderbird
+mail-client/thunderbird-bin
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/baekmuk-fonts
@@ -37,11 +37,10 @@ sys-fs/ntfs3g
 sys-kernel/debian-sources
 sys-kernel/linux-firmware
 sys-process/htop
-www-client/firefox
+www-client/firefox-bin
 www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-base/xorg-x11
 x11-misc/lightdm
 x11-terms/xfce4-terminal
 x11-wm/openbox
- 
