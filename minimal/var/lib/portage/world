@@ -22,6 +22,7 @@ media-fonts/liberation-fonts
 media-fonts/noto
 media-gfx/gimp
 media-gfx/inkscape
+media-libs/libtxc_dxtn
 media-sound/alsa-utils
 media-video/vlc
 net-dns/dnscrypt-proxy

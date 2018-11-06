@@ -14,8 +14,6 @@ dev-perl/Funtoo-Report
 games-util/steam-launcher
 kde-apps/ark
 kde-apps/dolphin
-kde-apps/dolphin-plugins
-kde-apps/dragon
 kde-apps/gwenview
 kde-apps/juk
 kde-apps/k3b
@@ -25,9 +23,10 @@ kde-apps/kcalc
 kde-apps/konsole
 kde-apps/okular
 kde-apps/spectacle
+kde-misc/kdeconnect
 kde-misc/latte-dock
 kde-plasma/plasma-meta
-mail-client/thunderbird
+mail-client/thunderbird-bin
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/baekmuk-fonts
@@ -38,6 +37,7 @@ media-fonts/noto
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/krita
+media-libs/libtxc_dxtn
 media-sound/alsa-utils
 media-video/vlc
 net-dns/dnscrypt-proxy
@@ -54,11 +54,10 @@ sys-fs/ntfs3g
 sys-kernel/debian-sources
 sys-kernel/linux-firmware
 sys-process/htop
-www-client/firefox
+www-client/firefox-bin
 www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-apps/mesa-progs
 x11-base/xorg-x11
 x11-misc/vdpauinfo
 x11-misc/xdg-user-dirs
- 
