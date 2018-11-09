@@ -5,7 +5,6 @@ app-arch/p7zip
 app-arch/rar
 app-arch/unrar
 app-editors/atom-bin
-app-emulation/virtualbox-guest-additions
 app-emulation/wine-staging
 app-misc/neofetch
 app-office/libreoffice
@@ -52,6 +51,7 @@ net-im/telegram-desktop-bin
 net-misc/networkmanager-openvpn
 net-p2p/transmission
 net-vpn/tor
+sys-apps/haveged
 sys-apps/irqbalance
 sys-block/partitionmanager
 sys-block/zram-init
@@ -68,4 +68,3 @@ x11-apps/mesa-progs
 x11-base/xorg-x11
 x11-misc/vdpauinfo
 x11-misc/xdg-user-dirs
- 

@@ -34,7 +34,7 @@ app-emulation/wine-staging vkd3d vulkan
 # required by app-misc/neofetch
 www-client/w3m imlib
 
-# 
+#
 x11-libs/libdrm video_cards_radeon
 
 # dependence of =x11-libs/bamf-0.5.3
