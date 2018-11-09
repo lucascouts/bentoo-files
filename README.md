@@ -1,8 +1,8 @@
-# bentoo-portagedir
+# bentoo-cfg
 
-##### Bentoo(Funtoo Stage4) Flavors Configuration portage files.
+##### Bentoo(Funtoo Stage4) Configuration files.
 
-hi, Here are the portage configuration files for each flavor and the list of installed packages.
+hi, Here are the configuration files for each flavor and the list of installed packages.
 
 ### Bentoo Overlay
 
