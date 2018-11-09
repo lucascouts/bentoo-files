@@ -63,3 +63,6 @@ x11-base/xorg-server -suid
 
 #
 net-libs/nodejs inspector
+
+#
+net-p2p/transmission -gtk

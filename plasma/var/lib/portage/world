@@ -59,5 +59,6 @@ www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-apps/mesa-progs
 x11-base/xorg-x11
+x11-misc/lightdm
 x11-misc/vdpauinfo
 x11-misc/xdg-user-dirs
