@@ -49,7 +49,9 @@ net-ftp/filezilla
 net-im/discord-bin
 net-im/telegram-desktop-bin
 net-misc/networkmanager-openvpn
+net-p2p/freenet
 net-p2p/transmission
+net-vpn/i2p
 net-vpn/tor
 sys-apps/haveged
 sys-apps/irqbalance

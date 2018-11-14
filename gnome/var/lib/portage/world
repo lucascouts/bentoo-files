@@ -12,7 +12,7 @@ dev-java/icedtea
 dev-perl/Funtoo-Report
 games-util/steam-launcher
 gnome-base/gnome
-mail-client/thunderbird
+mail-client/thunderbird-bin
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/baekmuk-fonts
@@ -23,6 +23,7 @@ media-fonts/noto
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/xsane
+media-libs/libtxc_dxtn
 media-sound/alsa-utils
 media-video/vlc
 net-dns/dnscrypt-proxy
@@ -38,8 +39,7 @@ sys-fs/ntfs3g
 sys-kernel/debian-sources
 sys-kernel/linux-firmware
 sys-process/htop
-www-client/firefox
+www-client/firefox-bin
 www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-base/xorg-x11
- 

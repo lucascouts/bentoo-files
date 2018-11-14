@@ -90,3 +90,5 @@ kde-apps/ark zip
 
 #
 net-libs/nodejs inspector
+
+kde-plasma/plasma-meta grub

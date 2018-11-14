@@ -2,8 +2,8 @@
 >sys-boot/plymouth-0.8.8-r5
 
 # stable versions.
->www-client/chromium-70.0.3538.77
->www-client/google-chrome-70.0.3538.77
+>www-client/chromium-70.0.3538.102
+>www-client/google-chrome-70.0.3538.102
 
 # higher versions isn't compatible with openrc anymore.
 >www-misc/profile-sync-daemon-5.75
