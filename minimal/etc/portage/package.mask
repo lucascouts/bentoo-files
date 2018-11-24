@@ -2,8 +2,8 @@
 >sys-boot/plymouth-0.8.8-r5
 
 # stable versions.
->www-client/chromium-70.0.3538.102
->www-client/google-chrome-70.0.3538.102
+>www-client/chromium-70.0.3538.110
+>www-client/google-chrome-70.0.3538.110
 
 # higher versions isn't compatible with openrc anymore.
 >www-misc/profile-sync-daemon-5.75
@@ -16,7 +16,7 @@ dev-java/oracle-jre-bin
 dev-java/oracle-jdk-bin
 
 # version above is αlpha.
->dev-lang/php-7.2.11
+>dev-lang/php-7.2.12
 
 # LTS version.
 >net-libs/nodejs-8.12.0
