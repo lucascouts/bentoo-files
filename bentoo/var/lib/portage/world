@@ -13,13 +13,12 @@ app-portage/eix
 app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
+games-util/lutris
 games-util/steam-launcher
 kde-apps/ark
-kde-apps/baloo-widgets
 kde-apps/dolphin
 kde-apps/gwenview
 kde-apps/juk
-kde-apps/kaccounts-integration
 kde-apps/kamera
 kde-apps/kamoso
 kde-apps/kcalc
@@ -29,7 +28,7 @@ kde-apps/spectacle
 kde-misc/kdeconnect
 kde-misc/latte-dock
 kde-plasma/plasma-meta
-mail-client/thunderbird-bin
+mail-client/thunderbird
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/baekmuk-fonts
@@ -63,7 +62,7 @@ sys-fs/squashfs-tools
 sys-kernel/debian-sources
 sys-kernel/linux-firmware
 sys-process/htop
-www-client/firefox-bin
+www-client/firefox
 www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-apps/mesa-progs

@@ -92,3 +92,9 @@ kde-apps/ark zip
 net-libs/nodejs inspector
 
 kde-plasma/plasma-meta grub
+
+#
+app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
+
+#
+sys-kernel/genkernel-next plymouth
