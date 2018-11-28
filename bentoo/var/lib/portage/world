@@ -4,7 +4,7 @@ app-admin/sudo
 app-arch/p7zip
 app-arch/rar
 app-arch/unrar
-app-editors/atom-bin
+app-emulation/docker
 app-emulation/wine-staging
 app-misc/neofetch
 app-office/libreoffice
@@ -23,6 +23,7 @@ kde-apps/kamera
 kde-apps/kamoso
 kde-apps/kcalc
 kde-apps/konsole
+kde-apps/kwrite
 kde-apps/okular
 kde-apps/spectacle
 kde-misc/kdeconnect
@@ -63,6 +64,7 @@ sys-kernel/debian-sources
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/firefox
+www-client/torbrowser-launcher
 www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-apps/mesa-progs

@@ -39,6 +39,7 @@ sys-kernel/debian-sources
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/firefox-bin
+www-client/torbrowser-launcher
 www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-base/xorg-x11

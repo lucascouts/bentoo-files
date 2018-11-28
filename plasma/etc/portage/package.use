@@ -66,3 +66,5 @@ net-libs/nodejs inspector
 
 #
 net-p2p/transmission -gtk
+
+kde-plasma/plasma-meta -legacy-systray grub
