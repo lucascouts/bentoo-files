@@ -3,6 +3,7 @@ app-admin/sudo
 app-arch/p7zip
 app-arch/rar
 app-arch/unrar
+app-emulation/open-vm-tools
 app-emulation/wine-staging
 app-misc/neofetch
 app-office/libreoffice
@@ -39,7 +40,6 @@ media-gfx/gimp
 media-gfx/inkscape
 media-gfx/krita
 media-libs/libtxc_dxtn
-media-sound/alsa-utils
 media-video/vlc
 net-dns/dnscrypt-proxy
 net-ftp/filezilla
@@ -52,7 +52,7 @@ sys-block/zram-init
 sys-boot/grub
 sys-devel/distcc
 sys-fs/ntfs3g
-sys-kernel/debian-sources
+sys-kernel/debian-sources-lts
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/firefox-bin
@@ -61,6 +61,5 @@ www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-apps/mesa-progs
 x11-base/xorg-x11
-x11-misc/lightdm
 x11-misc/vdpauinfo
 x11-misc/xdg-user-dirs

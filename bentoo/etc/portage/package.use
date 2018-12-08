@@ -10,7 +10,7 @@ gnome-extra/nm-applet -modemmanager
 app-crypt/pinentry gnome-keyring
 
 #
-media-libs/mesa gles1 gles2 vulkan xvmc
+media-libs/mesa gles1 gles2 opencl vulkan xvmc
 x11-apps/mesa-progs egl gles2
 
 # required by media-video/simplescreenrecorder.
@@ -37,6 +37,9 @@ www-client/w3m imlib
 #
 x11-libs/libdrm video_cards_radeon
 
+#
+dev-lang/rust-bin cargo
+
 # dependence of =x11-libs/bamf-0.5.3
 x11-libs/libwnck startup-notification
 
@@ -53,7 +56,7 @@ kde-plasma/libksysguard -detailedmemory
 app-arch/p7zip wxwidgets
 
 #
-=media-libs/gegl-0.3.26 -ffmpeg
+=media-libs/gegl-0.3.34 -ffmpeg
 
 #
 sys-boot/grub mount
@@ -101,3 +104,29 @@ sys-kernel/genkernel-next plymouth
 
 #
 media-libs/libsdl2 gles
+
+
+#
+dev-libs/xml-security-c -nss
+
+#
+sys-kernel/aufs-sources symlink
+
+#
+app-emulation/open-vm-tools gtkmm
+
+#
+app-eselect/eselect-php fpm
+dev-lang/php argon2 cgi fpm ftp mysql mysqli pcntl pdo soap sockets sodium spell tidy xmlreader xmlrpc xmlwriter xslt zip zip-encryption
+
+#
+net-misc/spice-gtk usbredir
+
+#
+media-plugins/alsa-plugins speex
+
+#
+sys-kernel/debian-sources btrfs
+
+#
+x11-drivers/nvidia-drivers acpi

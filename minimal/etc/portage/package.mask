@@ -2,8 +2,8 @@
 >sys-boot/plymouth-0.8.8-r5
 
 # stable versions.
->www-client/chromium-70.0.3538.110
->www-client/google-chrome-70.0.3538.110
+>www-client/chromium-71.0.3578.80
+>www-client/google-chrome-71.0.3578.80
 
 # higher versions isn't compatible with openrc anymore.
 >www-misc/profile-sync-daemon-5.75
@@ -16,7 +16,7 @@ dev-java/oracle-jre-bin
 dev-java/oracle-jdk-bin
 
 # version above is αlpha.
->dev-lang/php-7.2.12
+>dev-lang/php-7.2.13
 
 # LTS version.
 >net-libs/nodejs-8.12.0
@@ -26,7 +26,7 @@ dev-java/oracle-jdk-bin
 # GLSA 201705-01 ~> https://security.gentoo.org/glsa/201705-01
 <dev-libs/libevent-2.1.7_rc
 
-# GLSA 201803-11 ~> https://security.gentoo.org/glsa/201803-11
-<net-libs/webkit-gtk-2.18.6
+# GLSA 201812-04 ~> https://security.gentoo.org/glsa/201812-04
+<net-libs/webkit-gtk-2.22.0
 
 ##############################################################

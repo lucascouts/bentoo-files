@@ -4,7 +4,10 @@ app-admin/sudo
 app-arch/p7zip
 app-arch/rar
 app-arch/unrar
+app-benchmarks/phoronix-test-suite
 app-emulation/docker
+app-emulation/open-vm-tools
+app-emulation/virtualbox-guest-additions
 app-emulation/wine-staging
 app-misc/neofetch
 app-office/libreoffice
@@ -40,7 +43,7 @@ media-fonts/noto
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/krita
-media-sound/alsa-utils
+media-libs/libtxc_dxtn
 media-video/obs-studio
 media-video/simplescreenrecorder
 media-video/vlc
@@ -60,7 +63,9 @@ sys-block/zram-init
 sys-devel/distcc
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
-sys-kernel/debian-sources
+sys-kernel/aufs-sources
+sys-kernel/debian-sources-lts
+sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/firefox

@@ -37,6 +37,9 @@ www-client/w3m imlib
 #
 x11-libs/libdrm video_cards_radeon
 
+#
+dev-lang/rust-bin cargo
+
 # dependence of =x11-libs/bamf-0.5.3
 x11-libs/libwnck startup-notification
 
@@ -67,4 +70,13 @@ net-libs/nodejs inspector
 #
 net-p2p/transmission -gtk
 
+#
 kde-plasma/plasma-meta -legacy-systray grub
+
+#
+media-libs/libsdl2 gles
+
+#
+dev-libs/xml-security-c -nss
+
+app-emulation/open-vm-tools gtkmm
