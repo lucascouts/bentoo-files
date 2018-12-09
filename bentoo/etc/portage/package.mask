@@ -19,7 +19,7 @@ dev-java/oracle-jdk-bin
 >dev-lang/php-7.2.13
 
 # LTS version.
->net-libs/nodejs-8.12.0
+>net-libs/nodejs-8.14.0
 
 #
 >app-emulation/containerd-1.1.2

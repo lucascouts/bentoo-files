@@ -23,6 +23,9 @@ dev-java/oracle-jdk-bin
 
 >dev-libs/tinyxml2-3.0.0
 
+#
+>net-ftp/filezilla-3.25.2
+
 ##############################################################
 
 # GLSA 201705-01 ~> https://security.gentoo.org/glsa/201705-01

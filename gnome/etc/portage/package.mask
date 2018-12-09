@@ -24,6 +24,9 @@ dev-java/oracle-jdk-bin
 #
 >sys-libs/ldb-1.5.0
 
+#
+>net-ftp/filezilla-3.25.2
+
 ##############################################################
 
 # GLSA 201705-01 ~> https://security.gentoo.org/glsa/201705-01
