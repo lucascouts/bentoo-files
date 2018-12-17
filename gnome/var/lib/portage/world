@@ -3,6 +3,7 @@ app-admin/sudo
 app-arch/rar
 app-arch/unrar
 app-emulation/open-vm-tools
+app-emulation/virtualbox-guest-additions
 app-emulation/wine-staging
 app-misc/neofetch
 app-office/libreoffice
@@ -11,6 +12,7 @@ app-portage/eix
 app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
+dev-util/ccache
 games-util/steam-launcher
 gnome-base/gnome
 mail-client/thunderbird-bin

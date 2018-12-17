@@ -28,7 +28,7 @@ sys-devel/distcc python_single_target_python3_6
 media-gfx/blender python_single_target_python3_6
 
 virtual/wine staging
-app-emulation/wine-staging -ffmpeg vkd3d vulkan
+app-emulation/wine-staging -ffmpeg -vkd3d -vulkan
 
 # required by app-misc/neofetch
 www-client/w3m imlib

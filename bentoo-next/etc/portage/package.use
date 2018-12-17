@@ -90,8 +90,6 @@ kde-apps/ark zip
 #
 net-libs/nodejs inspector
 
-kde-plasma/plasma-meta -legacy-systray
-
 #
 app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
 
@@ -126,7 +124,6 @@ sys-kernel/debian-sources btrfs
 
 #
 x11-drivers/nvidia-drivers acpi
-
 
 #
 dev-python/pygobject -python_targets_python3_7

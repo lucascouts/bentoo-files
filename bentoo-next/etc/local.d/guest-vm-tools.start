@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Check if is a Virtualbox Machine
+vbox=$(lspci | grep -i virtualbox)
+
+# Check if is a Vmware Machine
+vmware=$(lspci | grep -i vmware)
+
+# if not have value;
+if [ -n "$vbox" ];
+then
+	rc-update add virtualbox-guest-additions default
+elif [ -n "$vmware"];
+then
+	rc-update add vmware-tools default
+fi

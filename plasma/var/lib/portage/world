@@ -4,6 +4,7 @@ app-arch/p7zip
 app-arch/rar
 app-arch/unrar
 app-emulation/open-vm-tools
+app-emulation/virtualbox-guest-additions
 app-emulation/wine-staging
 app-misc/neofetch
 app-office/libreoffice
@@ -12,6 +13,7 @@ app-portage/eix
 app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
+dev-util/ccache
 games-util/steam-launcher
 kde-apps/ark
 kde-apps/dolphin
@@ -55,7 +57,6 @@ sys-fs/ntfs3g
 sys-kernel/debian-sources-lts
 sys-kernel/linux-firmware
 sys-process/htop
-www-client/firefox-bin
 www-client/torbrowser-launcher
 www-misc/profile-sync-daemon
 www-servers/onionshare

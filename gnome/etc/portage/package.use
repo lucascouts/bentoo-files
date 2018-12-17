@@ -25,7 +25,7 @@ media-gfx/fontforge python_single_target_python2_7
 
 #
 virtual/wine staging
-app-emulation/wine-staging -ffmpeg vkd3d vulkan
+app-emulation/wine-staging -ffmpeg -vkd3d -vulkan
 
 # required by app-misc/neofetch
 www-client/w3m imlib

@@ -16,7 +16,7 @@ app-portage/eix
 app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
-games-util/lutris
+dev-util/ccache
 games-util/steam-launcher
 kde-apps/ark
 kde-apps/dolphin
@@ -63,9 +63,7 @@ sys-block/zram-init
 sys-devel/distcc
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
-sys-kernel/aufs-sources
 sys-kernel/debian-sources-lts
-sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/firefox

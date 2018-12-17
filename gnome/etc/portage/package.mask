@@ -2,8 +2,8 @@
 >sys-boot/plymouth-0.8.8-r5
 
 # stable versions.
->www-client/chromium-71.0.3578.80
->www-client/google-chrome-71.0.3578.80
+>www-client/chromium-71.0.3578.98
+>www-client/google-chrome-71.0.3578.98
 
 # higher versions isn't compatible with openrc anymore.
 >www-misc/profile-sync-daemon-5.75
@@ -24,8 +24,8 @@ dev-java/oracle-jdk-bin
 #
 >sys-libs/ldb-1.5.0
 
-#
->net-ftp/filezilla-3.25.2
+>dev-python/idna-2.7
+>dev-python/urllib3-1.23
 
 ##############################################################
 

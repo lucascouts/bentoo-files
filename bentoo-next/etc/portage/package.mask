@@ -2,8 +2,8 @@
 >sys-boot/plymouth-0.8.8-r5
 
 # stable versions.
->www-client/chromium-71.0.3578.80
->www-client/google-chrome-71.0.3578.80
+>www-client/chromium-71.0.3578.98
+>www-client/google-chrome-71.0.3578.98
 
 # higher versions isn't compatible with openrc anymore.
 >www-misc/profile-sync-daemon-5.75
@@ -19,14 +19,21 @@ dev-java/oracle-jdk-bin
 >dev-lang/php-7.2.13
 
 # LTS version.
->net-libs/nodejs-8.12.0
+>net-libs/nodejs-8.14.0
 
-#
+# required by (app-emulation/docker-18.09.0:0/0::nokit)
 >app-emulation/containerd-1.1.2
->app-emulation/runc-1.0.0_rc5_p20180509
 
+# required by (dev-util/ragel-7.0.0.10-r1:0/0::dev-kit)
+>dev-util/colm-0.13.0.5
+
+# stable versions.
 >sys-kernel/aufs-sources-4.14.81
 >sys-kernel/gentoo-sources-4.18.20
+
+#
+>dev-cpp/glibmm-2.56.1
+>dev-cpp/atkmm-2.24.3
 
 ##############################################################
 
