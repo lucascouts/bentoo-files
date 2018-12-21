@@ -9,7 +9,7 @@ gnome-extra/nm-applet -modemmanager
 app-crypt/pinentry gnome-keyring
 
 #
-media-libs/mesa gles1 gles2 vulkan xvmc
+media-libs/mesa gles1 gles2 vulkan xvmc wayland
 x11-apps/mesa-progs egl gles2
 
 # required by media-video/simplescreenrecorder.
@@ -84,3 +84,16 @@ kde-plasma/plasma-meta legacy-systray
 
 #
 dev-libs/libdbusmenu gtk3
+
+
+
+
+media-libs/phonon-gstreamer qt4
+
+gnome-base/gnome-control-center -networkmanager
+
+net-libs/liboauth -nss
+
+www-servers/onionshare -nautilus
+
+app-office/libreoffice -eds kde

@@ -128,3 +128,15 @@ x11-drivers/nvidia-drivers acpi
 #
 dev-python/pygobject -python_targets_python3_7
 games-util/lutris -python_targets_python3_7
+
+app-emulation/qemu spice
+
+net-misc/spice-gtk policykit
+
+gnome-base/gnome-control-center -networkmanager
+
+net-libs/liboauth -nss
+
+www-servers/onionshare -nautilus
+
+app-office/libreoffice -eds kde

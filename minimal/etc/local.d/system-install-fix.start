@@ -1,0 +1,12 @@
+#!/bin/bash
+
+$install="/installation"
+
+# exec file script "packages-fix.sh".
+sh $install/scripts/packages-fix.sh
+
+# remove file script "packages-fix.sh".
+rm $install/scripts/packages-fix.sh
+
+# find the remove line with string "packages-fix.sh".
+sed -i '/packages-fix.sh/d' /etc/local.d/system-install.start

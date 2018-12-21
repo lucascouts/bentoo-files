@@ -10,7 +10,7 @@ gnome-extra/nm-applet -modemmanager
 app-crypt/pinentry gnome-keyring
 
 #
-media-libs/mesa gles1 gles2 opencl vulkan xvmc
+media-libs/mesa gles1 gles2 opencl vulkan xvmc wayland
 x11-apps/mesa-progs egl gles2
 
 # required by media-video/simplescreenrecorder.
@@ -128,3 +128,14 @@ sys-kernel/debian-sources btrfs
 
 #
 x11-drivers/nvidia-drivers acpi
+
+app-emulation/qemu spice
+net-misc/spice-gtk policykit
+
+media-libs/phonon-gstreamer qt4
+
+net-libs/liboauth -nss
+
+www-servers/onionshare -nautilus
+
+app-office/libreoffice -eds kde
