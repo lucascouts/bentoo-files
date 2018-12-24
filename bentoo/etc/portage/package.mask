@@ -21,7 +21,7 @@ dev-java/oracle-jdk-bin
 # LTS version.
 >net-libs/nodejs-8.14.0
 
-#
+# required by (app-emulation/docker-18.09.0:0/0::nokit)
 >app-emulation/containerd-1.1.2
 >app-emulation/runc-1.0.0_rc5_p20180509
 
@@ -34,9 +34,6 @@ dev-java/oracle-jdk-bin
 # stable versions.
 >sys-kernel/aufs-sources-4.14.81
 >sys-kernel/gentoo-sources-4.18.20
-
->dev-python/idna-2.7
->dev-python/urllib3-1.23
 
 ##############################################################
 

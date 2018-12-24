@@ -9,13 +9,16 @@ vmware=$(lspci | grep -i vmware)
 # Runlevel Services directory.
 runlevels="/etc/runlevels/default"
 
-# message if work.
+# Message after added the service to runlevel.
+added="\n >>> Service added on runlevel! \n"
+
+# Message if work.
 sucessfull="\n >>> Service is already enabled! \n"
 
-# if nothign to do.
+# If nothign to do.
 nothing="\n >>> Nothing to do... \n"
 
-# if not have value;
+# If not have value;
 if [ -n "$vbox" ];
 then
 	file=$(ls $runlevels/virtualbox-guest-additions)
@@ -25,6 +28,7 @@ then
 	    echo -e $sucessfull
 	else
 		rc-update add virtualbox-guest-additions default
+		echo -e $added
 	fi
 elif [ -n "$vmware" ];
 then
@@ -35,6 +39,7 @@ then
 	    echo -e $sucessfull
 	else
 		rc-update add vmware-tools default
+		echo -e $added
 	fi
 else
 	echo -e $nothing

@@ -31,10 +31,6 @@ dev-java/oracle-jdk-bin
 >sys-kernel/aufs-sources-4.14.81
 >sys-kernel/gentoo-sources-4.18.20
 
-#
->dev-cpp/glibmm-2.56.1
->dev-cpp/atkmm-2.24.3
-
 ##############################################################
 
 # GLSA 201705-01 ~> https://security.gentoo.org/glsa/201705-01

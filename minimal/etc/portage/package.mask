@@ -21,9 +21,6 @@ dev-java/oracle-jdk-bin
 # LTS version.
 >net-libs/nodejs-8.12.0
 
->dev-python/idna-2.7
->dev-python/urllib3-1.23
-
 ##############################################################
 
 # GLSA 201705-01 ~> https://security.gentoo.org/glsa/201705-01

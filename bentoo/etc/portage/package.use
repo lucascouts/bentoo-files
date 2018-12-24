@@ -139,3 +139,5 @@ net-libs/liboauth -nss
 www-servers/onionshare -nautilus
 
 app-office/libreoffice -eds kde
+
+net-dns/dnsmasq script

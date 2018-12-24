@@ -1,12 +1,21 @@
 #!/bin/bash
 
-$install="/installation"
+install=/installation
 
-# exec file script "packages-fix.sh".
-sh $install/scripts/packages-fix.sh
+portage=$(ls /var/git/meta-repo)
 
-# remove file script "packages-fix.sh".
-rm $install/scripts/packages-fix.sh
 
-# find the remove line with string "packages-fix.sh".
-sed -i '/packages-fix.sh/d' /etc/local.d/system-install.start
+function packages_fix {
+
+	# exec file script "packages-fix.sh".
+	sh $install/scripts/packages-fix.sh
+
+	# remove installation script.
+	rm -rf $install
+
+	# remove the script.
+	rm /etc/local.d/system-install-fix.start
+
+}
+
+packages_fix

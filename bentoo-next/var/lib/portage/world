@@ -62,11 +62,8 @@ sys-block/zram-init
 sys-devel/distcc
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
-sys-kernel/aufs-sources
 sys-kernel/debian-sources-lts
-sys-kernel/gentoo-sources:4.14.89
 sys-kernel/linux-firmware
-sys-libs/glibc
 sys-process/htop
 www-client/firefox
 www-client/torbrowser-launcher
