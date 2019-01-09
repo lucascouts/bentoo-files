@@ -142,3 +142,7 @@ www-servers/onionshare -nautilus
 app-office/libreoffice -eds kde
 
 net-dns/dnsmasq script
+
+dev-libs/xmlsec nss
+
+dev-libs/openssl tls-heartbeat sslv3

@@ -19,7 +19,7 @@ dev-java/oracle-jdk-bin
 >dev-lang/php-7.2.13
 
 # LTS version.
->net-libs/nodejs-8.14.0
+>net-libs/nodejs-8.15.0
 
 # required by (app-emulation/docker-18.09.0:0/0::nokit)
 >app-emulation/containerd-1.1.2
@@ -33,7 +33,6 @@ dev-java/oracle-jdk-bin
 
 # stable versions.
 >sys-kernel/aufs-sources-4.14.81
->sys-kernel/gentoo-sources-4.18.20
 
 ##############################################################
 

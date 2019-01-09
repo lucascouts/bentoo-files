@@ -1,7 +1,7 @@
 =dev-libs/libevent-2.1.8
 =x11-base/xorg-server-1.19.5-r2
 =www-client/chromium-71.0.3578.80
-=app-benchmarks/phoronix-test-suite-8.4.0
+=app-benchmarks/phoronix-test-suite-8.4.1
 =sys-devel/distcc-3.3.2-r4
-=net-libs/nodejs-8.14.1
+=net-libs/nodejs-8.15.0
 =media-video/ffmpeg-4.1

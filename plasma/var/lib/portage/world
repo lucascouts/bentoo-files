@@ -48,6 +48,7 @@ net-ftp/filezilla
 net-im/discord-bin
 net-misc/networkmanager-openvpn
 net-p2p/transmission
+sys-apps/haveged
 sys-apps/irqbalance
 sys-block/partitionmanager
 sys-block/zram-init
