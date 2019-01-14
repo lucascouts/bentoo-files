@@ -16,7 +16,16 @@ dev-java/oracle-jre-bin
 dev-java/oracle-jdk-bin
 
 # LTS version.
->net-libs/nodejs-8.12.0
+>net-libs/nodejs-10.15.0
+
+# required by (app-emulation/docker-18.09.0:0/0::nokit)
+#>app-emulation/containerd-1.1.2
+
+# required by (dev-util/ragel-7.0.0.10-r1:0/0::dev-kit)
+>dev-util/colm-0.13.0.5
+
+# stable versions.
+>sys-kernel/aufs-sources-4.14.91
 
 ##############################################################
 

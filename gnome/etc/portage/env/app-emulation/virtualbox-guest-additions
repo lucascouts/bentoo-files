@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# /etc/portage/env/app-emulation/virtualbox-guest-additions-5.2.14
-
-post_pkg_setup() {
-        BUILD_PARAMS="KERN_DIR=/lib/modules/${KV_FULL}/build KERNOUT=${KV_OUT_DIR}"
-}

@@ -15,9 +15,6 @@
 dev-java/oracle-jre-bin
 dev-java/oracle-jdk-bin
 
-# version above is αlpha.
->dev-lang/php-7.2.13
-
 # LTS version.
 >net-libs/nodejs-8.12.0
 

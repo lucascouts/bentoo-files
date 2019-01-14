@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Check if is a Virtualbox Machine.
+vbox=$(lspci | grep -i virtualbox)
+
+# Check if is a Vmware Machine.
+vmware=$(lspci | grep -i vmware)
+
+# Runlevel Services directory.
+runlevels="/etc/runlevels/default"
+
+# Message after added the service to runlevel.
+added="\n >>> Service added on runlevel! \n"
+
+# Message if work.
+sucessfull="\n >>> Service is already enabled! \n"
+
+# If nothign to do.
+nothing="\n >>> Nothing to do... \n"
+
+# If not have value;
+if [ -n "$vbox" ];
+then
+	file=$(ls $runlevels/virtualbox-guest-additions)
+
+	if [ -n "$file" ];
+	then
+	    echo -e $sucessfull
+	else
+		rc-update add virtualbox-guest-additions default
+		echo -e $added
+	fi
+elif [ -n "$vmware" ];
+then
+	file=$(ls $runlevels/vmware-tools)
+
+	if [ -n "$file" ];
+	then
+	    echo -e $sucessfull
+	else
+		rc-update add vmware-tools default
+		echo -e $added
+	fi
+else
+	echo -e $nothing
+fi

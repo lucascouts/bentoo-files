@@ -16,7 +16,16 @@ dev-java/oracle-jre-bin
 dev-java/oracle-jdk-bin
 
 # LTS version.
->net-libs/nodejs-8.12.0
+>net-libs/nodejs-8.15.0
+
+# https://bugs.gentoo.org/669918
+>dev-lang/rust-1.29.1-r1
+>dev-lang/rust-bin-1.29.1
+>virtual/rust-1.29.1
+>virtual/cargo-1.29.1
+
+# stable versions.
+>sys-kernel/aufs-sources-4.14.91
 
 ##############################################################
 
