@@ -2,14 +2,10 @@
 x11-apps/xinit -minimal
 
 #
-net-misc/networkmanager -modemmanager -ppp
-gnome-extra/nm-applet -modemmanager
-
-#
 app-crypt/pinentry gnome-keyring
 
 #
-media-libs/mesa gles1 gles2 vulkan xvmc
+media-libs/mesa gles1 gles2 opencl vulkan xvmc wayland
 x11-apps/mesa-progs egl gles2
 
 # required by media-video/simplescreenrecorder.
@@ -27,8 +23,9 @@ media-gfx/fontforge python_single_target_python2_7
 sys-devel/distcc python_single_target_python3_6
 media-gfx/blender python_single_target_python3_6
 
+#
 virtual/wine staging
-app-emulation/wine-staging -ffmpeg -vkd3d -vulkan
+app-emulation/wine-staging sdl vkd3d vulkan
 
 # required by app-misc/neofetch
 www-client/w3m imlib
@@ -43,27 +40,131 @@ dev-lang/rust-bin cargo
 x11-libs/libwnck startup-notification
 
 #
-app-office/libreoffice -kde
+app-office/libreoffice -eds -kde
+
+#
+net-libs/liboauth -nss
+
+#
+www-servers/apache -threads
+
+#
+gnome-base/gnome-extra-apps -recipes
+
+#
+dev-python/PyQt5 declarative network
+
+#
+kde-plasma/libksysguard -detailedmemory
+
+#
+app-arch/p7zip wxwidgets
+
+sys-boot/grub mount
+
+#
+app-admin/calamares pythonqt
+
+#
+dev-python/PythonQt python_single_target_python2_7 -python_single_target_python3_6
+
+#
+games-emulation/pcsxr -pulseaudio -sdl
 
 # GLSA 201810-09 -> https://security.gentoo.org/glsa/201810-09
 x11-base/xorg-server -suid
 
 #
+kde-misc/kdeconnect app mousepad
+
+#
+kde-apps/spectacle share
+
+#
+media-gfx/sane-backends gphoto2
+
+#
+kde-apps/dolphin thumbnail
+
+#
+kde-apps/ark zip
+
+#
 net-libs/nodejs inspector
 
 #
-media-libs/libsdl2 gles
+media-libs/libsdl2 gles haptic
 
 #
 dev-libs/xml-security-c -nss
 
-app-emulation/open-vm-tools gtkmm
+#
+net-libs/nodejs inspector
 
+#
+app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
+
+#
+sys-kernel/genkernel-next plymouth
+
+#
+media-libs/libsdl2 gles
+
+app-emulation/open-vm-tools gtkmm
+sys-kernel/aufs-sources symlink
 net-libs/libssh server
+
+#
+app-emulation/open-vm-tools gtkmm
 
 #
 =media-libs/gegl-0.3.34 -ffmpeg
 
+#
+app-eselect/eselect-php fpm
+dev-lang/php argon2 cgi fpm ftp mysql mysqli pcntl pdo soap sockets sodium spell tidy xmlreader xmlrpc xmlwriter xslt zip zip-encryption
+
+#
+net-misc/spice-gtk usbredir
+
+#
+media-plugins/alsa-plugins speex
+
+#
+sys-kernel/debian-sources btrfs
+
+#
+x11-drivers/nvidia-drivers acpi
+
+app-emulation/qemu spice
+net-misc/spice-gtk policykit
+
+net-libs/liboauth -nss
+
+www-servers/onionshare -nautilus
+
+net-dns/dnsmasq script
+
 media-libs/mlt frei0r
 
 media-video/vlc opus
+
+sys-kernel/aufs-sources symlink
+
+>=gnome-base/gnome-shell-3.26.2 -python_targets_python3_7
+
+sys-kernel/gentoo-sources symlink
+
+dev-libs/openssl tls-heartbeat
+
+dev-lang/rust system-llvm
+
+net-p2p/transmission gtk
+
+www-client/firefox -startup-notification
+mail-client/thunderbird -startup-notification
+
+sys-apps/flatpak gnome policykit
+  sys-fs/libostree openssl
+
+gnome-base/gnome-vfs gnutls -ssl

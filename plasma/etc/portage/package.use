@@ -1,10 +1,5 @@
 #
 x11-apps/xinit -minimal
-net-p2p/transmission -gtk
-
-#
-net-misc/networkmanager -modemmanager -ppp
-gnome-extra/nm-applet -modemmanager
 
 #
 app-crypt/pinentry gnome-keyring
@@ -24,12 +19,13 @@ x11-wm/openbox imlib
 
 app-text/asciidoc python_single_target_python2_7
 media-gfx/fontforge python_single_target_python2_7
+
 sys-devel/distcc python_single_target_python3_6
 media-gfx/blender python_single_target_python3_6
 
 #
 virtual/wine staging
-app-emulation/wine-staging vkd3d vulkan
+app-emulation/wine-staging sdl vkd3d vulkan
 
 # required by app-misc/neofetch
 www-client/w3m imlib
@@ -44,10 +40,19 @@ dev-lang/rust-bin cargo
 x11-libs/libwnck startup-notification
 
 #
-app-office/libreoffice -kde
+app-office/libreoffice -eds -kde
 
 #
-dev-python/PyQt5 network
+net-libs/liboauth -nss
+
+#
+www-servers/apache -threads
+
+#
+gnome-base/gnome-extra-apps -recipes
+
+#
+dev-python/PyQt5 declarative network
 
 #
 kde-plasma/libksysguard -detailedmemory
@@ -55,10 +60,6 @@ kde-plasma/libksysguard -detailedmemory
 #
 app-arch/p7zip wxwidgets
 
-#
-=media-libs/gegl-0.3.34 -ffmpeg
-
-#
 sys-boot/grub mount
 
 #
@@ -69,9 +70,6 @@ dev-python/PythonQt python_single_target_python2_7 -python_single_target_python3
 
 #
 games-emulation/pcsxr -pulseaudio -sdl
-
-#
-media-libs/libsdl2 haptic
 
 # GLSA 201810-09 -> https://security.gentoo.org/glsa/201810-09
 x11-base/xorg-server -suid
@@ -95,6 +93,15 @@ kde-apps/ark zip
 net-libs/nodejs inspector
 
 #
+media-libs/libsdl2 gles haptic
+
+#
+dev-libs/xml-security-c -nss
+
+#
+net-libs/nodejs inspector
+
+#
 app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
 
 #
@@ -103,15 +110,15 @@ sys-kernel/genkernel-next plymouth
 #
 media-libs/libsdl2 gles
 
-
-#
-dev-libs/xml-security-c -nss
-
-#
+app-emulation/open-vm-tools gtkmm
 sys-kernel/aufs-sources symlink
+net-libs/libssh server
 
 #
 app-emulation/open-vm-tools gtkmm
+
+#
+=media-libs/gegl-0.3.34 -ffmpeg
 
 #
 app-eselect/eselect-php fpm
@@ -132,18 +139,32 @@ x11-drivers/nvidia-drivers acpi
 app-emulation/qemu spice
 net-misc/spice-gtk policykit
 
-media-libs/phonon-gstreamer qt4
-
 net-libs/liboauth -nss
 
 www-servers/onionshare -nautilus
 
-app-office/libreoffice -eds kde
-
 net-dns/dnsmasq script
-
-net-libs/libssh server
 
 media-libs/mlt frei0r
 
 media-video/vlc opus
+
+sys-kernel/aufs-sources symlink
+
+>=gnome-base/gnome-shell-3.26.2 -python_targets_python3_7
+
+sys-kernel/gentoo-sources symlink
+
+dev-libs/openssl tls-heartbeat
+
+dev-lang/rust system-llvm
+
+net-p2p/transmission gtk
+
+www-client/firefox -startup-notification
+mail-client/thunderbird -startup-notification
+
+sys-apps/flatpak gnome policykit
+  sys-fs/libostree openssl
+
+gnome-base/gnome-vfs gnutls -ssl

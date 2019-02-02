@@ -4,7 +4,6 @@
 =app-benchmarks/phoronix-test-suite-8.4.1
 =sys-devel/distcc-3.3.2-r4
 =media-video/ffmpeg-4.1
-=app-emulation/crossover-bin-18.1.0
-=net-libs/nodejs-10.15.0
+=net-libs/nodejs-10.15.1
 =dev-libs/openssl-1.1.0j
 =dev-lang/php-7.3.1
