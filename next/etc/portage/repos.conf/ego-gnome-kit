@@ -1,4 +1,0 @@
-[gnome-kit]
-location = /var/git/meta-repo/kits/gnome-kit
-auto-sync = no
-priority = 1
