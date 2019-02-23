@@ -1,0 +1,4 @@
+[rust-kit]
+location = /var/git/meta-repo/kits/rust-kit
+auto-sync = no
+priority = 1

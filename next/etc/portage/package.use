@@ -18,10 +18,18 @@ x11-wm/openbox imlib
 ### resolve python_single_target dependence.
 
 app-text/asciidoc python_single_target_python2_7
-media-gfx/fontforge python_single_target_python2_7 -python_single_target_python3_6
+media-gfx/fontforge python_single_target_python2_7
+
+media-gfx/fontforge -python_single_target_python3_6
 
 sys-devel/distcc python_single_target_python3_6
 media-gfx/blender python_single_target_python3_6
+
+app-portage/layman -python_targets_python3_7
+games-util/lutris -python_targets_python3_7
+dev-util/meld -python_targets_python3_7
+
+dev-python/pygobject python_targets_python3_7
 
 #
 virtual/wine staging
@@ -72,7 +80,7 @@ dev-python/PythonQt python_single_target_python2_7 -python_single_target_python3
 games-emulation/pcsxr -pulseaudio -sdl
 
 # GLSA 201810-09 -> https://security.gentoo.org/glsa/201810-09
-x11-base/xorg-server -suid
+x11-base/xorg-server -suid kdrive xvfb
 
 #
 kde-misc/kdeconnect app mousepad
@@ -134,7 +142,7 @@ media-plugins/alsa-plugins speex
 sys-kernel/debian-sources btrfs
 
 #
-x11-drivers/nvidia-drivers acpi
+x11-drivers/nvidia-drivers acpi uvm
 
 app-emulation/qemu spice
 net-misc/spice-gtk policykit
@@ -161,17 +169,36 @@ dev-lang/rust system-llvm
 
 net-p2p/transmission gtk
 
-www-client/firefox -startup-notification
+www-client/firefox -startup-notification system-icu system-sqlite
 mail-client/thunderbird -startup-notification
 
 sys-apps/flatpak gnome policykit
   sys-fs/libostree openssl
 
+gnome-base/gnome-vfs gnutls -ssl
 
->=dev-python/pygobject-3.30.2 python_targets_python3_7
 
->=app-portage/layman-2.4.2-r2 -python_targets_python3_7
+### gnome
+
+media-libs/libmediaart -qt5
+
+### minimal
+
+x11-libs/wxGTK libnotify
+
+x11-libs/gtk+ colord
+
+>=games-util/lutris-0.4.23-r3 -python_targets_python3_7
+
+media-sound/pulseaudio gconf
 
 sys-boot/plymouth gdm
 
-sys-fs/squashfs-tools zstd
+media-libs/phonon designer
+dev-qt/qtwebchannel qml
+dev-qt/qtwebengine widgets
+dev-qt/designer declarative
+dev-qt/qtmultimedia qml widgets
+kde-frameworks/knotifications phonon
+dev-qt/qtscript scripttools
+media-libs/libvpx svc

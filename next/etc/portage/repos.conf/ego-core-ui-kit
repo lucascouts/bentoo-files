@@ -1,0 +1,4 @@
+[core-ui-kit]
+location = /var/git/meta-repo/kits/core-ui-kit
+auto-sync = no
+priority = 1

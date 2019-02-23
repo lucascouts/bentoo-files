@@ -5,7 +5,6 @@ app-arch/p7zip
 app-arch/rar
 app-arch/unrar
 app-benchmarks/phoronix-test-suite
-app-cdr/cdrtools
 app-crypt/veracrypt
 app-emulation/docker
 app-emulation/open-vm-tools
@@ -20,6 +19,7 @@ app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
 dev-util/ccache
+games-util/lutris
 kde-apps/ark
 kde-apps/dolphin
 kde-apps/gwenview
@@ -64,10 +64,11 @@ sys-apps/haveged
 sys-apps/irqbalance
 sys-block/partitionmanager
 sys-block/zram-init
+sys-boot/grub
 sys-devel/distcc
 sys-fs/dmraid
+sys-fs/mdadm
 sys-fs/ntfs3g
-sys-fs/squashfs-tools
 sys-kernel/aufs-sources
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources

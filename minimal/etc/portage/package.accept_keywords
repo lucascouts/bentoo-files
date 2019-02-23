@@ -1,3 +1,7 @@
-=app-office/libreoffice-l10n-6.1.4.1 **
-=app-office/libreoffice-6.1.4.2 **
 =dev-libs/openssl-1.1.0j **
+=app-office/libreoffice-6.2.1.1 **
+=app-office/libreoffice-l10n-6.2.1.1 **
+  =dev-libs/liborcus-0.14.1 **
+  =dev-util/mdds-1.4.3 **
+  =dev-libs/libixion-0.14.1 **
+=sys-fs/squashfs-tools-9999 **

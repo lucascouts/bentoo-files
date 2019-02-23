@@ -5,8 +5,8 @@ app-arch/p7zip
 app-arch/rar
 app-arch/unrar
 app-benchmarks/phoronix-test-suite
-app-cdr/cdrtools
 app-crypt/veracrypt
+app-editors/sublime-text
 app-emulation/docker
 app-emulation/open-vm-tools
 app-emulation/virtualbox-guest-additions
@@ -16,10 +16,12 @@ app-misc/neofetch
 app-office/libreoffice
 app-portage/cpuid2cpuflags
 app-portage/eix
+app-portage/genlop
 app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
 dev-util/ccache
+games-util/lutris
 games-util/steam-launcher
 kde-apps/ark
 kde-apps/dolphin
@@ -56,6 +58,7 @@ net-dns/dnscrypt-proxy
 net-ftp/filezilla
 net-im/discord-bin
 net-im/telegram-desktop-bin
+net-irc/konversation
 net-misc/networkmanager-openvpn
 net-p2p/freenet
 net-p2p/transmission
@@ -65,10 +68,11 @@ sys-apps/haveged
 sys-apps/irqbalance
 sys-block/partitionmanager
 sys-block/zram-init
+sys-boot/grub
 sys-devel/distcc
 sys-fs/dmraid
+sys-fs/mdadm
 sys-fs/ntfs3g
-sys-fs/squashfs-tools
 sys-kernel/aufs-sources
 sys-kernel/debian-sources-lts
 sys-kernel/gentoo-sources
@@ -79,6 +83,7 @@ www-client/torbrowser-launcher
 www-misc/profile-sync-daemon
 www-servers/onionshare
 x11-apps/mesa-progs
+x11-base/xorg-drivers
 x11-base/xorg-x11
 x11-misc/vdpauinfo
 x11-misc/xdg-user-dirs

@@ -1,8 +1,8 @@
 =dev-libs/libevent-2.1.8
 =x11-base/xorg-server-1.19.5-r2
-=www-client/chromium-71.0.3578.80
+=www-client/chromium-72.0.3626.96
 =app-benchmarks/phoronix-test-suite-8.4.1
 =sys-devel/distcc-3.3.2-r4
 =dev-libs/openssl-1.1.0j
-=media-video/ffmpeg-4.1
+=media-video/ffmpeg-4.1.1
 =dev-lang/python-3.7.0

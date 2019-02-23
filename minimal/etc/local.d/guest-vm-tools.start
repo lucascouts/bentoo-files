@@ -28,6 +28,7 @@ then
 	    echo -e $sucessfull
 	else
 		rc-update add virtualbox-guest-additions default
+		rc-service virtualbox-guest-additions start
 		echo -e $added
 	fi
 elif [ -n "$vmware" ];
@@ -39,6 +40,7 @@ then
 	    echo -e $sucessfull
 	else
 		rc-update add vmware-tools default
+		rc-service vmware-tools start
 		echo -e $added
 	fi
 else

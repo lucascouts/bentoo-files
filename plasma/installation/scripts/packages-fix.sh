@@ -1,24 +1,22 @@
 #!/bin/bash
 
 # emerge options.
-EMERGE_DEFAULT_OPTS="--quiet-build=y --nodeps --oneshot --usepkg" 
+EMERGE_DEFAULT_OPTS="--quiet-build=y --nodeps --oneshot --usepkg -j5" 
 
 # short variable.
 OPTS=$EMERGE_DEFAULT_OPTS
 
 # list of packages to install.
-#packages="pam"
+packages="pam dnscrypt-proxy"
 
 #
-ln -sf /etc/X11/xinit/xinitrc /root/.xinitrc
+cp /etc/X11/xinit/xinitrc /root/.xinitrc
 
 # add the temporary directory of the binaries.
 echo -e '\nPKGDIR="/installation/packages"' >> /etc/portage/make.conf
 
 # command to install the packages listed.
-FEATURES="-getbinpkg" emerge $OPTS pam &
-
-FEATURES="-getbinpkg" emerge $OPTS dnscrypt-proxy
+FEATURES="-getbinpkg" emerge $OPTS $packages
 
 # remove the temporary directory line.
 sed -i '/PKGDIR/d' /etc/portage/make.conf

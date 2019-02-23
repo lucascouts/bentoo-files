@@ -1,0 +1,4 @@
+[python-modules-kit]
+location = /var/git/meta-repo/kits/python-modules-kit
+auto-sync = no
+priority = 1

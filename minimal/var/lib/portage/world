@@ -1,11 +1,11 @@
+app-admin/calamares
 app-admin/spectre-meltdown-checker
 app-admin/sudo
 app-arch/rar
 app-arch/unrar
 app-benchmarks/phoronix-test-suite
-app-cdr/cdrtools
 app-crypt/veracrypt
-app-editors/vim
+app-editors/sublime-text
 app-emulation/docker
 app-emulation/open-vm-tools
 app-emulation/virtualbox-guest-additions
@@ -15,10 +15,12 @@ app-misc/neofetch
 app-office/libreoffice
 app-portage/cpuid2cpuflags
 app-portage/eix
+app-portage/genlop
 app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
 dev-util/ccache
+games-util/lutris
 games-util/steam-launcher
 mail-client/thunderbird
 media-fonts/arphicfonts
@@ -50,8 +52,8 @@ sys-block/zram-init
 sys-boot/grub
 sys-devel/distcc
 sys-fs/dmraid
+sys-fs/mdadm
 sys-fs/ntfs3g
-sys-fs/squashfs-tools
 sys-kernel/aufs-sources
 sys-kernel/debian-sources-lts
 sys-kernel/linux-firmware
