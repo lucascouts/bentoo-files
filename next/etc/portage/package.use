@@ -5,7 +5,7 @@ x11-apps/xinit -minimal
 app-crypt/pinentry gnome-keyring
 
 #
-media-libs/mesa gles1 gles2 opencl vulkan xvmc wayland
+media-libs/mesa -libglvnd gles1 gles2 opencl vulkan xvmc wayland
 x11-apps/mesa-progs egl gles2
 
 # required by media-video/simplescreenrecorder.
@@ -54,7 +54,7 @@ app-office/libreoffice -eds -kde
 net-libs/liboauth -nss
 
 #
-www-servers/apache -threads
+www-servers/apache -threads apache2_modules_auth_digest apache2_mpms_prefork
 
 #
 gnome-base/gnome-extra-apps -recipes
@@ -169,7 +169,7 @@ dev-lang/rust system-llvm
 
 net-p2p/transmission gtk
 
-www-client/firefox -startup-notification system-icu system-sqlite
+www-client/firefox -startup-notification
 mail-client/thunderbird -startup-notification
 
 sys-apps/flatpak gnome policykit
@@ -196,9 +196,27 @@ sys-boot/plymouth gdm
 
 media-libs/phonon designer
 dev-qt/qtwebchannel qml
+dev-qt/qtxmlpatterns qml
 dev-qt/qtwebengine widgets
 dev-qt/designer declarative
 dev-qt/qtmultimedia qml widgets
 kde-frameworks/knotifications phonon
 dev-qt/qtscript scripttools
 media-libs/libvpx svc
+
+net-print/hplip scanner
+
+
+dev-qt/linguist-tools qml
+dev-qt/qtsql mysql
+
+net-libs/webkit-gtk libnotify gnome-keyring
+
+net-misc/networkmanager bluetooth connection-sharing policykit
+
+net-fs/samba gnutls
+
+# https://bugs.gentoo.org/show_bug.cgi?id=680824
+media-libs/opencv -python
+
+www-client/torbrowser-launcher -python_targets_python3_7

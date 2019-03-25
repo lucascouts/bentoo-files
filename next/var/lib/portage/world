@@ -1,6 +1,7 @@
 app-admin/calamares
 app-admin/spectre-meltdown-checker
 app-admin/sudo
+app-admin/syslog-ng
 app-arch/p7zip
 app-arch/rar
 app-arch/unrar
@@ -46,6 +47,7 @@ media-fonts/noto
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/krita
+media-libs/mesa
 media-sound/alsa-utils
 media-sound/spotify
 media-video/obs-studio
@@ -55,10 +57,11 @@ net-dns/dnscrypt-proxy
 net-ftp/filezilla
 net-im/discord-bin
 net-im/telegram-desktop-bin
-net-misc/networkmanager-openvpn
 net-p2p/freenet
 net-p2p/transmission
+net-print/hplip-plugin
 net-vpn/i2p
+net-vpn/networkmanager-openvpn
 sys-apps/flatpak
 sys-apps/haveged
 sys-apps/irqbalance
@@ -69,7 +72,6 @@ sys-devel/distcc
 sys-fs/dmraid
 sys-fs/mdadm
 sys-fs/ntfs3g
-sys-kernel/aufs-sources
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware

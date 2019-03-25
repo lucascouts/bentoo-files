@@ -1,6 +1,7 @@
 app-admin/calamares
 app-admin/spectre-meltdown-checker
 app-admin/sudo
+app-admin/syslog-ng
 app-arch/rar
 app-arch/unrar
 app-benchmarks/phoronix-test-suite
@@ -42,11 +43,13 @@ net-dns/dnscrypt-proxy
 net-ftp/filezilla
 net-im/discord-bin
 net-im/telegram-desktop-bin
-net-misc/networkmanager-openvpn
 net-p2p/freenet
 net-p2p/transmission
+net-print/hplip-plugin
 net-vpn/i2p
+net-vpn/networkmanager-openvpn
 sys-apps/flatpak
+sys-apps/haveged
 sys-apps/irqbalance
 sys-block/zram-init
 sys-boot/grub
