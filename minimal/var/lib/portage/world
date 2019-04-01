@@ -4,7 +4,6 @@ app-admin/sudo
 app-admin/syslog-ng
 app-arch/rar
 app-arch/unrar
-app-benchmarks/phoronix-test-suite
 app-emulation/open-vm-tools
 app-emulation/virtualbox-guest-additions
 app-misc/livecd-tools
@@ -18,6 +17,7 @@ dev-perl/Funtoo-Report
 dev-util/ccache
 games-util/lutris
 games-util/steam-launcher
+mail-client/thunderbird-bin
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/baekmuk-fonts
@@ -43,11 +43,11 @@ sys-devel/distcc
 sys-fs/dmraid
 sys-fs/mdadm
 sys-fs/ntfs3g
-sys-kernel/aufs-sources
-sys-kernel/debian-sources-lts
+sys-kernel/genkernel-next
+sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/htop
-www-client/firefox
+www-client/firefox-bin
 www-client/torbrowser-launcher
 www-misc/profile-sync-daemon
 www-servers/onionshare

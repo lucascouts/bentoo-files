@@ -15,14 +15,14 @@
 dev-java/oracle-jre-bin
 dev-java/oracle-jdk-bin
 
-# LTS version.
->net-libs/nodejs-10.15.3
+# erro when try download the patch.
+=app-emulation/wine-staging-4.4-r1
 
 # masked by firefox.
 >media-libs/libvpx-1.7.0
 
 #
->app-emulation/containerd-1.2.2
+=app-emulation/runc-1.0.0_rc7
 
 ##############################################################
 
@@ -33,9 +33,3 @@ dev-java/oracle-jdk-bin
 <net-libs/webkit-gtk-2.22.6
 
 ##############################################################
-
-=dev-lang/rust-1.33.0
-=virtual/rust-1.33.0
-=virtual/cargo-1.33.0
-
-=app-emulation/wine-staging-4.4-r1

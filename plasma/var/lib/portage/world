@@ -5,7 +5,6 @@ app-admin/syslog-ng
 app-arch/p7zip
 app-arch/rar
 app-arch/unrar
-app-benchmarks/phoronix-test-suite
 app-crypt/veracrypt
 app-editors/sublime-text
 app-emulation/docker
@@ -19,7 +18,9 @@ app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/genlop
 app-portage/layman
+dev-db/mariadb
 dev-java/icedtea
+dev-lang/php
 dev-perl/Funtoo-Report
 dev-util/ccache
 games-util/lutris
@@ -39,7 +40,7 @@ kde-apps/spectacle
 kde-misc/kdeconnect
 kde-misc/latte-dock
 kde-plasma/plasma-meta
-mail-client/thunderbird
+mail-client/thunderbird-bin
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/baekmuk-fonts
@@ -60,6 +61,7 @@ net-ftp/filezilla
 net-im/discord-bin
 net-im/telegram-desktop-bin
 net-irc/konversation
+net-libs/nodejs
 net-p2p/freenet
 net-p2p/transmission
 net-print/hplip-plugin
@@ -75,14 +77,14 @@ sys-devel/distcc
 sys-fs/dmraid
 sys-fs/mdadm
 sys-fs/ntfs3g
-sys-kernel/aufs-sources
-sys-kernel/debian-sources-lts
+sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/htop
-www-client/firefox
+www-client/firefox-bin
 www-client/torbrowser-launcher
 www-misc/profile-sync-daemon
+www-servers/nginx
 www-servers/onionshare
 x11-apps/mesa-progs
 x11-base/xorg-drivers

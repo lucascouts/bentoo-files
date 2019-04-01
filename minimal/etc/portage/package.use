@@ -41,9 +41,6 @@ www-client/w3m imlib
 #
 x11-libs/libdrm video_cards_radeon
 
-#
-dev-lang/rust-bin cargo
-
 # dependence of =x11-libs/bamf-0.5.3
 x11-libs/libwnck startup-notification
 
@@ -101,25 +98,15 @@ kde-apps/ark zip
 net-libs/nodejs inspector
 
 #
-media-libs/libsdl2 gles haptic
+media-libs/libsdl2 gles haptic vulkan xscreensaver
 
 #
 dev-libs/xml-security-c -nss
 
 #
-net-libs/nodejs inspector
-
-#
 app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
 
-#
-sys-kernel/genkernel-next plymouth
-
-#
-media-libs/libsdl2 gles
-
 app-emulation/open-vm-tools gtkmm
-sys-kernel/aufs-sources symlink
 net-libs/libssh server
 
 #
@@ -139,9 +126,6 @@ net-misc/spice-gtk usbredir
 media-plugins/alsa-plugins speex
 
 #
-sys-kernel/debian-sources btrfs
-
-#
 x11-drivers/nvidia-drivers acpi uvm
 
 app-emulation/qemu spice
@@ -153,15 +137,11 @@ www-servers/onionshare -nautilus
 
 net-dns/dnsmasq script
 
-media-libs/mlt frei0r
+media-libs/mlt frei0r kdenlive melt
 
 media-video/vlc opus
 
-sys-kernel/aufs-sources symlink
-
 >=gnome-base/gnome-shell-3.26.2 -python_targets_python3_7
-
-sys-kernel/gentoo-sources symlink
 
 dev-libs/openssl tls-heartbeat
 
@@ -203,6 +183,8 @@ dev-qt/qtmultimedia qml widgets
 kde-frameworks/knotifications phonon
 dev-qt/qtscript scripttools
 media-libs/libvpx svc
+kde-frameworks/knotifyconfig phonon
+dev-qt/qtquickcontrols2 widgets
 
 net-print/hplip scanner
 
@@ -217,3 +199,13 @@ net-misc/networkmanager bluetooth connection-sharing policykit
 net-fs/samba gnutls
 
 media-libs/libaom -abi_x86_32
+
+kde-plasma/plasma-meta grub
+
+dev-db/postgresql llvm
+
+kde-apps/kdenlive semantic-desktop
+
+media-gfx/exiv2 xmp
+
+app-arch/unzip natspec

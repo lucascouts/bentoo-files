@@ -20,12 +20,12 @@ welcomeStyleCalamares:   false
 # bootloaderEntryName is how this installation / distro is named
 # in the boot loader (e.g. in the GRUB menu).
 strings:
-    productName:         Bentoo GNU/Linux
+    productName:         Bentoo OS
     shortProductName:    Bentoo
     version:             2018.10 LTS
     shortVersion:        2018.10
-    versionedName:       Bentoo GNU/Linux 2017.8 LTS "Soapy Sousaphone"
-    shortVersionedName:  Bentoo 2017.8
+    versionedName:       Bentoo OS
+    shortVersionedName:  Bentoo 2019.2
     bootloaderEntryName: Bentoo
     productUrl:          https://calamares.io/
     supportUrl:          https://github.com/calamares/calamares/issues
