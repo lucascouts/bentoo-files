@@ -1,0 +1,8 @@
+ID="bentoo"
+NAME="Bentoo"
+PRETTY_NAME="Linux"
+VERSION="2019-05-07"
+VERSION_ID="v0.1"
+ANSI_COLOR="0;34"
+HOME_URL="www.bentoo.info"
+BUG_REPORT_URL="github.com/lucascouts/bentoo/issues"

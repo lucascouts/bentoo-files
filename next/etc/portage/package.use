@@ -23,7 +23,7 @@ media-gfx/fontforge python_single_target_python2_7
 media-gfx/fontforge -python_single_target_python3_6
 
 sys-devel/distcc python_single_target_python3_6
-media-gfx/blender python_single_target_python3_6
+media-gfx/blender python_single_target_python3_6 cycles
 
 app-portage/layman -python_targets_python3_7
 games-util/lutris -python_targets_python3_7
@@ -40,9 +40,6 @@ www-client/w3m imlib
 
 #
 x11-libs/libdrm video_cards_radeon
-
-#
-dev-lang/rust-bin cargo
 
 # dependence of =x11-libs/bamf-0.5.3
 x11-libs/libwnck startup-notification
@@ -69,9 +66,6 @@ kde-plasma/libksysguard -detailedmemory
 app-arch/p7zip wxwidgets
 
 sys-boot/grub mount
-
-#
-app-admin/calamares pythonqt
 
 #
 dev-python/PythonQt python_single_target_python2_7 -python_single_target_python3_6
@@ -101,29 +95,16 @@ kde-apps/ark zip
 net-libs/nodejs inspector
 
 #
-media-libs/libsdl2 gles haptic
+media-libs/libsdl2 gles haptic vulkan xscreensaver
 
 #
 dev-libs/xml-security-c -nss
 
 #
-net-libs/nodejs inspector
-
-#
 app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
 
-#
-sys-kernel/genkernel-next plymouth
-
-#
-media-libs/libsdl2 gles
-
 app-emulation/open-vm-tools gtkmm
-sys-kernel/aufs-sources symlink
 net-libs/libssh server
-
-#
-app-emulation/open-vm-tools gtkmm
 
 #
 =media-libs/gegl-0.3.34 -ffmpeg
@@ -139,9 +120,6 @@ net-misc/spice-gtk usbredir
 media-plugins/alsa-plugins speex
 
 #
-sys-kernel/debian-sources btrfs
-
-#
 x11-drivers/nvidia-drivers acpi uvm
 
 app-emulation/qemu spice
@@ -149,19 +127,15 @@ net-misc/spice-gtk policykit
 
 net-libs/liboauth -nss
 
-www-servers/onionshare -nautilus
+www-servers/onionshare -nautilus -python_targets_python3_7
 
 net-dns/dnsmasq script
 
-media-libs/mlt frei0r
+media-libs/mlt frei0r kdenlive melt
 
 media-video/vlc opus
 
-sys-kernel/aufs-sources symlink
-
 >=gnome-base/gnome-shell-3.26.2 -python_targets_python3_7
-
-sys-kernel/gentoo-sources symlink
 
 dev-libs/openssl tls-heartbeat
 
@@ -203,9 +177,13 @@ dev-qt/qtmultimedia qml widgets
 kde-frameworks/knotifications phonon
 dev-qt/qtscript scripttools
 media-libs/libvpx svc
+kde-frameworks/knotifyconfig phonon
+dev-qt/qtquickcontrols2 widgets
+dev-qt/qtwayland xcomposite
+dev-qt/qtsensors qml
+kde-frameworks/kidletime xscreensaver
 
 net-print/hplip scanner
-
 
 dev-qt/linguist-tools qml
 dev-qt/qtsql mysql
@@ -214,9 +192,50 @@ net-libs/webkit-gtk libnotify gnome-keyring
 
 net-misc/networkmanager bluetooth connection-sharing policykit
 
-net-fs/samba gnutls
+net-fs/samba acl gnutls
 
-# https://bugs.gentoo.org/show_bug.cgi?id=680824
-media-libs/opencv -python
+media-libs/libaom -abi_x86_32
+
+kde-plasma/plasma-meta grub
+
+dev-db/postgresql llvm
+
+kde-apps/kdenlive semantic-desktop
+
+media-gfx/exiv2 xmp
+
+app-arch/unzip natspec
+
+net-misc/modemmanager policykit
 
 www-client/torbrowser-launcher -python_targets_python3_7
+
+media-gfx/gimp gnome
+
+www-client/firefox-bin startup-notification
+
+sys-kernel/gentoo-sources experimental
+
+sys-firmware/intel-microcode initramfs
+
+>=app-emulation/virt-manager-2.0.0 -python_targets_python3_7
+
+app-emulation/vmware-workstation bundled-libs
+
+gnome-base/gvfs udisks
+
+net-dns/avahi mdnsresponder-compat
+
+kde-apps/kio-extras phonon
+
+sys-libs/ncurses tinfo
+
+media-libs/gd fontconfig
+
+app-admin/system-config-printer -python_targets_python3_7
+
+app-admin/syslog-ng python_single_target_python3_6
+
+media-libs/opencv -cuda
+
+dev-java/openjdk gentoo-vm

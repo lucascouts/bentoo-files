@@ -2,8 +2,8 @@
 >sys-boot/plymouth-0.8.8-r5
 
 # stable versions.
->www-client/chromium-72.0.3626.28-r1
->www-client/google-chrome-75.0.3770.100
+>www-client/chromium-76.0.3809.100
+>www-client/google-chrome-76.0.3809.100
 
 # higher versions isn't compatible with openrc anymore.
 >www-misc/profile-sync-daemon-5.75
@@ -14,10 +14,10 @@
 # mask any version.
 dev-java/oracle-jre-bin
 dev-java/oracle-jdk-bin
->net-vpn/i2p-0.9.39
->media-gfx/gimp-2.10.10-r1
-=app-dicts/myspell-en-20190101-r1
->dev-util/cmake-3.14.6
+>dev-util/colm-0.13.0.5 # required by dev-util/ragel-7.0.0.10-r1:dev-kit
+>=sys-fs/lvm2-2.03.05 # erro on compiling.
+>dev-util/cmake-3.14.6 # erro about "zstd" on compiling.
+dev-lang/php:7.4
 
 ##############################################################
 

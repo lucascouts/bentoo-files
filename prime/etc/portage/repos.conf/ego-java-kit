@@ -1,4 +1,0 @@
-[java-kit]
-location = /var/git/meta-repo/kits/java-kit
-auto-sync = no
-priority = 1

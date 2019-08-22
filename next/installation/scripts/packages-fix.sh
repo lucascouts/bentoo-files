@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # emerge options.
-EMERGE_DEFAULT_OPTS="--quiet-build=y --nodeps --oneshot --usepkg -j5"
+EMERGE_DEFAULT_OPTS="--quiet-build=y --nodeps --oneshot --usepkg -j9"
 
 # short variable.
 OPTS=$EMERGE_DEFAULT_OPTS

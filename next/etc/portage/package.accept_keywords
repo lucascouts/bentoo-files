@@ -1,7 +1,4 @@
-=dev-libs/openssl-1.1.0j **
-=app-office/libreoffice-6.2.1.1 **
-=app-office/libreoffice-l10n-6.2.1.1 **
-  =dev-libs/liborcus-0.14.1 **
-  =dev-util/mdds-1.4.3 **
-  =dev-libs/libixion-0.14.1 **
-=sys-fs/squashfs-tools-9999 **
+=dev-libs/boost-1.67.0 **
+=dev-util/boost-build-1.67.0 **
+=app-emulation/vmware-workstation-14.1.7.12989993-r6 **
+=sys-devel/gcc-8.2.1-r5 **

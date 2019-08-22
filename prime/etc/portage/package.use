@@ -23,7 +23,7 @@ media-gfx/fontforge python_single_target_python2_7
 media-gfx/fontforge -python_single_target_python3_6
 
 sys-devel/distcc python_single_target_python3_6
-media-gfx/blender cycles python_single_target_python3_6
+media-gfx/blender cycles python_single_target_python3_6 -cuda
 
 app-portage/layman -python_targets_python3_7
 games-util/lutris -python_targets_python3_7
@@ -133,7 +133,7 @@ net-dns/dnsmasq script
 
 media-libs/mlt frei0r kdenlive melt
 
-media-video/vlc opus
+media-video/vlc gnome-keyring libnotify opus
 
 >=gnome-base/gnome-shell-3.26.2 -python_targets_python3_7
 
@@ -192,7 +192,7 @@ net-libs/webkit-gtk libnotify gnome-keyring
 
 net-misc/networkmanager bluetooth connection-sharing policykit
 
-net-fs/samba acl gnutls
+net-fs/samba acl client gnutls
 
 media-libs/libaom -abi_x86_32
 
@@ -222,7 +222,7 @@ sys-firmware/intel-microcode initramfs
 
 app-emulation/vmware-workstation bundled-libs
 
-gnome-base/gvfs udisks
+gnome-base/gvfs gnome-keyring gnome-online-accounts http policykit udisks
 
 net-dns/avahi mdnsresponder-compat
 
@@ -232,4 +232,18 @@ sys-libs/ncurses tinfo
 
 media-libs/gd fontconfig
 
-app-admin/system-config-printer -python_targets_python3_7
+app-admin/system-config-printer -python_targets_python3_7 gnome-keyring policykit
+
+gnome-base/gconf policykit
+
+net-libs/gnome-online-accounts vala
+
+media-libs/grilo playlist
+
+dev-vcs/subversion gnome-keyring
+
+dev-libs/libgweather vala
+
+media-libs/cogl gles2
+
+gnome-base/gnome-settings-daemon policykit
