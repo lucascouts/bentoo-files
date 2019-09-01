@@ -1,4 +1,4 @@
-# bentoo-cfg
+# bentoo-files
 
 ##### Bentoo(Funtoo Stage4) Configuration files.
 
