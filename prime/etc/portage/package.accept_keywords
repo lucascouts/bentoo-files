@@ -1,0 +1,8 @@
+=app-emulation/vmware-workstation-14.1.7.12989993-r6 **
+=net-im/dino-9999 **
+app-emulation/lxd **
+dev-libs/nspr **
+dev-libs/nss **
+www-client/firefox **
+dev-db/sqlite **
+dev-util/cbindgen **

@@ -1,0 +1,31 @@
+---
+componentName:  default
+welcomeStyleCalamares:   false
+
+strings:
+    productName:         Bentoo OS
+    shortProductName:    Bentoo
+    version:             2018.11 LTS
+    shortVersion:        2018.11
+    versionedName:       Bentoo OS
+    shortVersionedName:  Bentoo
+    bootloaderEntryName: Bentoo OS
+    productUrl:          https://bentoo.info
+    supportUrl:          https://github.com/lucascouts/bentoo/issues
+    knownIssuesUrl:      https://bentoo.info
+    releaseNotesUrl:     https://bentoo.info/changelog/
+
+welcomeExpandingLogo:   true
+
+images:
+    productLogo:         "bentoo_icon.svg"
+    productIcon:         "bentoo_icon.svg"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#FFFFFF"
+   sidebarTextHighlight: "#6E56AF"

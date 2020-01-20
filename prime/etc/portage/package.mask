@@ -1,0 +1,40 @@
+# version above is more slow to load.
+>sys-boot/plymouth-0.8.8-r5
+
+# stable versions.
+>www-client/chromium-79.0.3945.130
+>www-client/google-chrome-79.0.3945.130
+
+# higher versions isn't compatible with openrc anymore.
+>www-misc/profile-sync-daemon-5.75
+
+# stable versions.
+>net-vpn/tor-0.4.2.5
+
+# mask any version.
+dev-java/oracle-jre-bin
+dev-java/oracle-jdk-bin
+
+# LTS Version.
+>net-libs/nodejs-12.14.1
+
+>media-libs/libvpx-1.7.0 # masked by firefox and thunderbird
+>sys-fs/lvm2-2.02.186-r1 # erro on compiling.
+<sys-devel/gcc-9.2.0 # mask older versions.
+dev-util/nvidia-cuda-toolkit # require old version of gcc.
+>app-emulation/containerd-1.2.10
+
+#
+>x11-libs/libX11-1.6.8
+>x11-libs/libXvMC-1.0.11
+=media-libs/libglvnd-1.1.1.20190313-r1
+
+# somes packages neeed libnma and was removed.
+>=gnome-extra/nm-applet-1.8.26-r1
+
+
+# issue with linker.
+>dev-util/meson-0.52.1
+
+#
+>=dev-python/more-itertools-6.0.0
