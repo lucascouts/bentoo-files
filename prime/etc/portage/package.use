@@ -269,3 +269,5 @@ dev-libs/libaio static-libs
 app-emulation/wine-vanilla opencl vkd3d
 
 sys-block/gparted -xfs
+
+app-emulation/faudio utils

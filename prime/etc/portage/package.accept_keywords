@@ -6,3 +6,4 @@ dev-libs/nss **
 www-client/firefox **
 dev-db/sqlite **
 dev-util/cbindgen **
+=dev-libs/wayland-1.17.0 **
