@@ -7,4 +7,4 @@ CHECKVT=7
 
 # What display manager do you use ?  [ xdm | gdm | kdm | gpe | entrance ]
 # NOTE: If this is set in /etc/rc.conf, that setting will override this one.
-DISPLAYMANAGER="lightdm"
+DISPLAYMANAGER="sddm"

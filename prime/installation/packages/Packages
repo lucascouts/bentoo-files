@@ -1,0 +1,79 @@
+ACCEPT_KEYWORDS: amd64 ~amd64
+ACCEPT_LICENSE: *
+ACCEPT_PROPERTIES: * -reboot
+ACCEPT_RESTRICT: *
+ARCH: amd64
+CBUILD: x86_64-pc-linux-gnu
+CHOST: x86_64-pc-linux-gnu
+CONFIG_PROTECT: /etc /usr/lib64/libreoffice/program/sofficerc /usr/share/config /usr/share/gnupg/qualified.txt
+CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/dconf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/php/apache2-php7.1/ext-active/ /etc/php/apache2-php7.4/ext-active/ /etc/php/cgi-php7.1/ext-active/ /etc/php/cgi-php7.4/ext-active/ /etc/php/cli-php7.1/ext-active/ /etc/php/cli-php7.4/ext-active/ /etc/revdep-rebuild /etc/sandbox.d /etc/terminfo /etc/vmware-installer
+ELIBC: glibc
+FEATURES: assume-digests binpkg-docompress binpkg-dostrip binpkg-logs buildpkg candy compressdebug config-protect-if-modified distlocks ebuild-locks fixlafiles ipc-sandbox merge-sync multilib-strict network-sandbox news parallel-fetch pid-sandbox preserve-libs sandbox sfperms splitdebug strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr
+GENTOO_MIRRORS: https://fastpull-us.funtoo.org
+INSTALL_MASK: /etc/systemd/ /usr/lib/systemd/ /lib/systemd/
+IUSE_IMPLICIT: prefix prefix-chain prefix-guest
+KERNEL: linux
+PACKAGES: 1657
+PROFILE: /etc/portage/make.profile
+TIMESTAMP: 1584902820
+USE: X a52 aac abi_x86_64 acl alsa alsa_cards_hda-intel alsa_pcm_plugins_adpcm alsa_pcm_plugins_alaw alsa_pcm_plugins_asym alsa_pcm_plugins_copy alsa_pcm_plugins_dmix alsa_pcm_plugins_dshare alsa_pcm_plugins_dsnoop alsa_pcm_plugins_empty alsa_pcm_plugins_extplug alsa_pcm_plugins_file alsa_pcm_plugins_hooks alsa_pcm_plugins_iec958 alsa_pcm_plugins_ioplug alsa_pcm_plugins_ladspa alsa_pcm_plugins_lfloat alsa_pcm_plugins_linear alsa_pcm_plugins_meter alsa_pcm_plugins_mmap_emul alsa_pcm_plugins_mulaw alsa_pcm_plugins_multi alsa_pcm_plugins_null alsa_pcm_plugins_plug alsa_pcm_plugins_rate alsa_pcm_plugins_route alsa_pcm_plugins_share alsa_pcm_plugins_shm alsa_pcm_plugins_softvol amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias apng berkdb bluray btrfs bzip2 cairo calligra_features_author calligra_features_braindump calligra_features_flow calligra_features_karbon calligra_features_kexi calligra_features_krita calligra_features_plan calligra_features_sheets calligra_features_stage calligra_features_tables calligra_features_words cdda cddb cdio cdr collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog colord corefonts cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_f16c cpu_flags_x86_fma3 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_pclmul cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 cracklib crypt cryptsetup cups curl curl_ssl_openssl cxx dbus dc1394 declarative device-mapper dnssd dri dts dv dvd dvdr dvdread eds egl elibc_glibc elogind encode evo exif faac faad ffmpeg flac gdbm gif glamor glvnd gnome gnome-keyring gnome-online-accounts gphoto2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-64 grub_platforms_pc grub_platforms_qemu gstreamer gtk gtk3 gtkstyle ico iconv icu iec61883 ieee1394 input_devices_evdev input_devices_joystick input_devices_keyboard input_devices_libinput input_devices_mouse input_devices_synaptics input_devices_vmmouse input_devices_wacom introspection ios ipod ipv6 jack jpeg jpeg2k kde kernel_linux kipi l10n_ar l10n_bg l10n_ca l10n_cs l10n_da l10n_de l10n_el l10n_en l10n_en-GB l10n_en-US l10n_es l10n_es-419 l10n_es-AR l10n_es-CL l10n_es-ES l10n_es-MX l10n_es-PE l10n_et l10n_fa l10n_fi l10n_fil l10n_fr l10n_ga l10n_he l10n_hi l10n_hr l10n_hu l10n_it l10n_ja l10n_ko l10n_lv l10n_nb l10n_nl l10n_nn l10n_no l10n_pl l10n_pt l10n_pt-BR l10n_pt-PT l10n_ro l10n_ru l10n_si l10n_sk l10n_sl l10n_sq l10n_sr l10n_sv l10n_ta l10n_th l10n_tr l10n_uk l10n_vi l10n_zh l10n_zh-CN l10n_zh-TW lame lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text libass libguess libmpeg2 libnotify libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer llvm_targets_AMDGPU llvm_targets_BPF llvm_targets_NVPTX lm_sensors lvm lz4 lzma lzo mad matroska mjpeg mmx modules mp3 mpeg mtp mudflap nautilus ncurses networkmanager nls nptl nsplugin nss nvenc office_implementation_libreoffice ogg opengl openimageio openmp openrc-force pam pcre pdf phonon php_targets_php7-4 plasma plymouth png policykit postgres_targets_postgres9_5 postproc pppd pulseaudio python python_single_target_python3_7 python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 qemu_softmmu_targets_i386 qemu_softmmu_targets_x86_64 qemu_user_targets_aarch64 qemu_user_targets_arm qemu_user_targets_i386 qemu_user_targets_x86_64 qml qt5 quicktime raw readline resolvconf ruby_targets_ruby26 ruby_targets_ruby27 sane_backends_* sdl sdl1 seccomp semantic-desktop sndfile source sse sse2 ssl startup-notification svg symlink taglib tcpd theora threads tiff tracker truetype twolame udev unicode usb userland_GNU v4l vaapi vdpau video_cards_amdgpu video_cards_dri3 video_cards_fbdev video_cards_gallium-r300 video_cards_gallium-r600 video_cards_gallium-radeonsi video_cards_gallium-vmware video_cards_i915 video_cards_i965 video_cards_intel video_cards_nvidia video_cards_osmesa video_cards_qxl video_cards_radeon video_cards_radeonsi video_cards_swrast video_cards_vaapi video_cards_vdpau video_cards_vesa video_cards_virtualbox video_cards_vmware video_cards_vulkan-amdgpu video_cards_vulkan-intel video_cards_xa video_cards_xvmc vmware_guest_linux vorbis vpx vulkan wav wavpack wayland webengine webp widgets win32codecs wmf x264 x265 xa xattr xcb xcomposite xinerama xkb xml xscreensaver xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xvid xvmc zeroconf zlib zstd
+USERLAND: GNU
+USE_EXPAND: ABI_MIPS ABI_PPC ABI_S390 ABI_X86 ALSA_CARDS ALSA_PCM_PLUGINS APACHE2_MODULES APACHE2_MPMS CALLIGRA_EXPERIMENTAL_FEATURES CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_X86 CROSSCOMPILE_OPTS CURL_SSL DVB_CARDS ELIBC ENLIGHTENMENT_MODULES FCDSL_CARDS FFTOOLS FOO2ZJS_DEVICES FRITZCAPI_CARDS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LIRC_DEVICES LLVM_TARGETS MISDN_CARDS MONKEYD_PLUGINS NETBEANS_MODULES NGINX_MODULES_EXTERNAL NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFED_DRIVERS OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM OSS_CARDS PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS USERLAND UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XFCE_PLUGINS XTABLES_ADDONS
+USE_EXPAND_HIDDEN: ABI_MIPS ABI_PPC ABI_S390 ABI_X86 CPU_FLAGS_ARM CROSSCOMPILE_OPTS ELIBC KERNEL USERLAND
+USE_EXPAND_IMPLICIT: ARCH ELIBC KERNEL USERLAND
+USE_EXPAND_UNPREFIXED: ARCH
+USE_EXPAND_VALUES_ARCH: alpha amd64 amd64-fbsd amd64-linux arm arm-linux arm64 hppa ia64 m68k m68k-mint mips nios2 ppc ppc64 ppc64-linux ppc-aix ppc-macos riscv s390 sh sparc sparc64-solaris sparc-fbsd sparc-solaris x64-cygwin x64-macos x64-solaris x86 x86-cygwin x86-fbsd x86-linux x86-macos x86-solaris x86-winnt
+USE_EXPAND_VALUES_ELIBC: AIX bionic Cygwin Darwin DragonFly FreeBSD glibc HPUX Interix mingw mintlib musl NetBSD OpenBSD SunOS uclibc Winnt
+USE_EXPAND_VALUES_KERNEL: AIX Darwin FreeBSD freemint HPUX linux NetBSD OpenBSD SunOS Winnt
+USE_EXPAND_VALUES_USERLAND: BSD GNU
+VERSION: 0
+
+BUILD_TIME: 1584332828
+CPV: acct-group/dnscrypt-proxy-0
+DEFINED_PHASES: preinst pretend
+EAPI: 7
+KEYWORDS: alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 ~riscv s390 sh sparc x86 ~ppc-aix ~x64-cygwin ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+MD5: 71cbe124849455368d1d296f1a9d7649
+SHA1: 290858c0e06fa44fc5579bffa21c9541003e73d0
+SIZE: 12573
+USE: amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1584332829
+REPO: bentoo
+
+BUILD_TIME: 1544906888
+CPV: sys-boot/plymouth-0.8.8-r5
+DEFINED_PHASES: compile configure install postinst prepare test
+DEPEND: >=media-libs/libpng-1.2.16 dev-libs/glib:2 >=x11-libs/gtk+-2.12:2 x11-libs/libdrm[libkms] >=x11-libs/pango-1.21 x11-libs/libdrm[video_cards_intel] x11-libs/libdrm[video_cards_radeon] virtual/pkgconfig virtual/pkgconfig
+EAPI: 5
+IUSE: video_cards_intel video_cards_radeon debug gdm +gtk +libkms +pango static-libs
+KEYWORDS: ~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE: GPL-2
+MD5: 50fa96070e4ea3e96a50a3b920bfa0c5
+PROVIDES: x86_64: details.so drm.so fade-throbber.so frame-buffer.so label.so libply-boot-client.so.2 libply-splash-core.so.2 libply-splash-graphics.so.2 libply.so.2 script.so space-flares.so text.so throbgress.so two-step.so x11.so
+RDEPEND: >=media-libs/libpng-1.2.16 dev-libs/glib:2 >=x11-libs/gtk+-2.12:2 x11-libs/libdrm[libkms] >=x11-libs/pango-1.21 x11-libs/libdrm[video_cards_intel] x11-libs/libdrm[video_cards_radeon] virtual/udev
+REQUIRES: x86_64: libc.so.6 libcairo.so.2 libdl.so.2 libdrm.so.2 libdrm_intel.so.1 libdrm_radeon.so.1 libgdk-x11-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libgtk-x11-2.0.so.0 libkms.so.1 libm.so.6 libpango-1.0.so.0 libpangocairo-1.0.so.0 libpng16.so.16 libpthread.so.0 librt.so.1
+SHA1: c0bcb98d4d93aebd96b2f80faf0f5b93e8219ae9
+SIZE: 892944
+USE: abi_x86_64 amd64 elibc_glibc gdm gtk kernel_linux libkms pango userland_GNU video_cards_intel video_cards_radeon
+MTIME: 1563911192
+REPO: bentoo
+
+BDEPEND: app-text/docbook-xml-dtd:4.1.2 app-text/docbook-xml-dtd:4.3 app-text/docbook-xml-dtd:4.4 app-text/docbook-xml-dtd:4.5 dev-libs/libxslt sys-devel/flex virtual/pkgconfig sys-devel/gettext app-arch/xz-utils app-portage/portage-utils >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+BUILD_TIME: 1583884512
+CPV: sys-libs/pam-1.3.1.20190226
+DEFINED_PHASES: compile configure install postinst prepare unpack
+DEPEND: >=sys-libs/db-4.8.30-r1:18.1/18.1= >=sys-libs/cracklib-2.9.1-r1 >=virtual/libintl-0-r1 sys-libs/libcap
+EAPI: 7
+IUSE: audit berkdb +cracklib debug elogind minimal mktemp nis nls +nullok pam_krb5 pam_ssh passwdqc +pie securetty selinux +sha512 static-libs +filecaps
+KEYWORDS: *
+LICENSE: || ( BSD GPL-2 )
+MD5: 03eb1f8201b9966eda55e216320aaaec
+PDEPEND: sys-auth/elogind[pam]
+PROVIDES: x86_64: libpam.so.0 libpam_misc.so.0 libpamc.so.0 pam_access.so pam_cracklib.so pam_debug.so pam_deny.so pam_echo.so pam_env.so pam_exec.so pam_faildelay.so pam_faillock.so pam_filter.so pam_ftp.so pam_group.so pam_issue.so pam_keyinit.so pam_lastlog.so pam_limits.so pam_listfile.so pam_localuser.so pam_loginuid.so pam_mail.so pam_mkhomedir.so pam_motd.so pam_namespace.so pam_nologin.so pam_permit.so pam_pwhistory.so pam_rhosts.so pam_rootok.so pam_securetty.so pam_shells.so pam_stress.so pam_succeed_if.so pam_tally.so pam_tally2.so pam_time.so pam_timestamp.so pam_umask.so pam_unix.so pam_userdb.so pam_warn.so pam_wheel.so pam_xauth.so
+RDEPEND: >=sys-libs/db-4.8.30-r1:18.1/18.1= >=sys-libs/cracklib-2.9.1-r1 >=virtual/libintl-0-r1 !sys-auth/openpam !sys-auth/pam_userdb !<sys-auth/pambase-20190426
+REQUIRES: x86_64: libc.so.6 libcrack.so.2 libcrypt.so.1 libdb-18.1.so libdl.so.2 libpthread.so.0 libutil.so.1
+SHA1: 7225aa983c91b90e6fac0ef5ee2140f79a4cd2ff
+SIZE: 662006
+USE: amd64 berkdb cracklib elibc_glibc elogind filecaps kernel_linux nls nullok pie sha512 userland_GNU
+MTIME: 1583884514
+REPO: core-kit

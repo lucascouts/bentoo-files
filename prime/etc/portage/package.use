@@ -1,12 +1,9 @@
 #
-x11-apps/xinit -minimal
-
-#
-app-crypt/pinentry gnome-keyring
+x11-apps/xinit twm
 
 #
 media-libs/mesa opencl sensors
-x11-apps/mesa-progs egl gles2
+x11-apps/mesa-progs gles2
 
 # required by media-video/simplescreenrecorder.
 dev-libs/libpcre pcre16
@@ -18,12 +15,9 @@ x11-wm/openbox imlib
 ### resolve python_single_target dependence.
 
 app-emulation/crossover-bin python_single_target_python2_7
-app-text/asciidoc python_single_target_python2_7
+app-emulation/playonlinux python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
-dev-util/boost-build python_single_target_python2_7
 net-libs/telepathy-glib python_single_target_python2_7
-sys-devel/distcc python_single_target_python3_6
-media-gfx/blender python_single_target_python3_6 cycles
 
 #
 virtual/wine staging
@@ -32,14 +26,11 @@ app-emulation/wine-staging opencl osmesa sdl vkd3d vulkan
 # required by app-misc/neofetch
 www-client/w3m imlib
 
-#
-x11-libs/libdrm video_cards_radeon
-
 # dependence of =x11-libs/bamf-0.5.3
 x11-libs/libwnck startup-notification
 
 #
-app-office/libreoffice -bluetooth -eds -mariadb accessibility googledrive pdfimport
+app-office/libreoffice -bluetooth -eds -mariadb accessibility googledrive
 
 #
 net-libs/liboauth -nss
@@ -62,9 +53,6 @@ app-arch/p7zip wxwidgets
 sys-boot/grub mount
 
 #
-dev-python/PythonQt python_single_target_python2_7 -python_single_target_python3_6
-
-#
 games-emulation/pcsxr -pulseaudio -sdl
 
 # GLSA 201810-09 -> https://security.gentoo.org/glsa/201810-09
@@ -75,9 +63,6 @@ kde-misc/kdeconnect app bluetooth mousepad
 
 #
 kde-apps/spectacle share
-
-#
-media-gfx/sane-backends gphoto2
 
 #
 kde-apps/dolphin thumbnail
@@ -99,9 +84,6 @@ app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
 
 app-emulation/open-vm-tools gtkmm
 net-libs/libssh server
-
-#
-=media-libs/gegl-0.3.34 -ffmpeg
 
 #
 app-eselect/eselect-php fpm
@@ -132,8 +114,6 @@ media-video/vlc opus
 >=gnome-base/gnome-shell-3.26.2 -python_targets_python3_7
 
 dev-lang/rust system-llvm
-
-net-p2p/transmission gtk
 
 www-client/firefox -startup-notification
 mail-client/thunderbird -startup-notification
@@ -178,13 +158,11 @@ kde-frameworks/kidletime xscreensaver
 dev-qt/linguist-tools qml
 dev-qt/qtsql mysql
 
-net-libs/webkit-gtk libnotify gnome-keyring
+net-libs/webkit-gtk libnotify
 
-net-misc/networkmanager bluetooth connection-sharing policykit
+net-misc/networkmanager -nss bluetooth connection-sharing policykit
 
 net-fs/samba acl gnutls
-
-media-libs/libaom -abi_x86_32
 
 kde-plasma/plasma-meta bluetooth grub thunderbolt
 
@@ -197,8 +175,6 @@ media-gfx/exiv2 xmp
 app-arch/unzip natspec
 
 net-misc/modemmanager policykit
-
-media-gfx/gimp gnome
 
 www-client/firefox-bin startup-notification
 
@@ -218,7 +194,7 @@ sys-libs/ncurses tinfo
 
 media-libs/gd fontconfig
 
-app-admin/system-config-printer -python_targets_python3_7 gnome-keyring policykit
+app-admin/system-config-printer -python_targets_python3_7 policykit
 
 dev-java/openjdk gentoo-vm
 
@@ -229,8 +205,6 @@ gnome-base/gconf policykit
 net-libs/gnome-online-accounts vala
 
 media-libs/grilo playlist
-
-dev-vcs/subversion gnome-keyring
 
 dev-libs/libgweather vala
 
@@ -246,7 +220,7 @@ app-emulation/wine-any staging
 
 sci-libs/fftw -cpu_flags_x86_avx2
 
-media-libs/opencv -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3  -python_targets_python2_7
+media-libs/opencv -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 -gtk3
 
 net-print/hplip scanner
 
@@ -271,3 +245,20 @@ app-emulation/wine-vanilla opencl vkd3d
 sys-block/gparted -xfs
 
 app-emulation/faudio utils
+
+sys-libs/libxcrypt system static-libs
+
+app-admin/calamares doas python_single_target_python3_6
+
+media-video/ffmpeg opus
+
+app-emulation/docker-compose -python_targets_python3_7
+
+app-crypt/pinentry gnome-keyring
+
+gnome-base/gvfs -samba
+
+dev-libs/gmp static-libs
+
+# To exclude media-video/cheese is redudante with kde-apps/kamoso.
+gnome-base/gnome-control-center -v4l

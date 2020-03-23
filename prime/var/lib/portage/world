@@ -5,12 +5,12 @@ app-admin/syslog-ng
 app-arch/p7zip
 app-arch/rar
 app-arch/unrar
-app-editors/vscodium
+app-editors/vscodium-bin
 app-emulation/docker
 app-emulation/dxvk
 app-emulation/lxd
 app-emulation/open-vm-tools
-app-emulation/virtualbox-guest-additions
+app-emulation/playonlinux
 app-emulation/wine-staging
 app-emulation/winetricks
 app-misc/livecd-tools
@@ -22,6 +22,7 @@ app-portage/genlop
 app-portage/layman
 dev-java/icedtea
 dev-perl/Funtoo-Report
+dev-qt/qtwebengine
 dev-util/ccache
 dev-util/vulkan-tools
 games-util/joystick
@@ -86,6 +87,7 @@ sys-fs/dmraid
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
+sys-kernel/aufs-sources
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
