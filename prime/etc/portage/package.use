@@ -1,7 +1,7 @@
-#
+# necessary to load the xterm, xclock...
 x11-apps/xinit twm
 
-#
+# improviment.
 media-libs/mesa opencl sensors
 x11-apps/mesa-progs gles2
 
@@ -9,7 +9,7 @@ x11-apps/mesa-progs gles2
 dev-libs/libpcre pcre16
 dev-libs/libpcre2 pcre16
 
-#
+# dependence from Openbox to improve the use.
 x11-wm/openbox imlib
 
 ### resolve python_single_target dependence.
@@ -18,9 +18,11 @@ app-emulation/crossover-bin python_single_target_python2_7
 app-emulation/playonlinux python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
 net-libs/telepathy-glib python_single_target_python2_7
+media-libs/lv2 -python_single_target_python2_7 -python_targets_python2_7 python_single_target_python3_6
 
-#
+# improviment.
 virtual/wine staging
+app-emulation/wine-vanilla opencl osmesa vkd3d
 app-emulation/wine-staging opencl osmesa sdl vkd3d vulkan
 
 # required by app-misc/neofetch
@@ -33,9 +35,6 @@ x11-libs/libwnck startup-notification
 app-office/libreoffice -bluetooth -eds -mariadb accessibility googledrive
 
 #
-net-libs/liboauth -nss
-
-#
 www-servers/apache -threads apache2_modules_auth_digest apache2_mpms_prefork
 
 #
@@ -45,11 +44,9 @@ gnome-base/gnome-extra-apps -recipes
 dev-python/PyQt5 declarative network
 
 #
-kde-plasma/libksysguard -detailedmemory
+app-arch/p7zip rar wxwidgets
 
 #
-app-arch/p7zip wxwidgets
-
 sys-boot/grub mount
 
 #
@@ -65,7 +62,7 @@ kde-misc/kdeconnect app bluetooth mousepad
 kde-apps/spectacle share
 
 #
-kde-apps/dolphin thumbnail
+kde-apps/dolphin activities thumbnail
 
 #
 kde-apps/ark zip
@@ -76,10 +73,7 @@ net-libs/nodejs inspector
 #
 media-libs/libsdl2 gles haptic vulkan xscreensaver
 
-#
-dev-libs/xml-security-c -nss
-
-#
+# improvement.
 app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
 
 app-emulation/open-vm-tools gtkmm
@@ -103,7 +97,7 @@ net-misc/spice-gtk policykit
 
 net-libs/liboauth -nss
 
-www-servers/onionshare -nautilus -python_targets_python3_7
+www-servers/onionshare -nautilus -python_targets_python3_6
 
 net-dns/dnsmasq script
 
@@ -111,15 +105,13 @@ media-libs/mlt frei0r kdenlive melt
 
 media-video/vlc opus
 
->=gnome-base/gnome-shell-3.26.2 -python_targets_python3_7
-
 dev-lang/rust system-llvm
 
-www-client/firefox -startup-notification
-mail-client/thunderbird -startup-notification
+www-client/firefox -startup-notification clang lto hwaccel
+www-client/firefox-bin startup-notification
+mail-client/thunderbird -startup-notification clang lto
 
-sys-apps/flatpak gnome policykit
-  sys-fs/libostree openssl
+sys-apps/flatpak policykit
 
 gnome-base/gnome-vfs gnutls -ssl
 
@@ -133,8 +125,6 @@ media-libs/libmediaart -qt5
 x11-libs/wxGTK libnotify
 
 x11-libs/gtk+ colord
-
->=games-util/lutris-0.4.23-r3 -python_targets_python3_7
 
 media-sound/pulseaudio gconf
 
@@ -160,6 +150,7 @@ dev-qt/qtsql mysql
 
 net-libs/webkit-gtk libnotify
 
+#
 net-misc/networkmanager -nss bluetooth connection-sharing policykit
 
 net-fs/samba acl gnutls
@@ -175,8 +166,6 @@ media-gfx/exiv2 xmp
 app-arch/unzip natspec
 
 net-misc/modemmanager policykit
-
-www-client/firefox-bin startup-notification
 
 sys-kernel/gentoo-sources experimental
 
@@ -214,13 +203,11 @@ gnome-base/gnome-settings-daemon policykit
 
 dev-python/pyelftools python_targets_python3_6
 
-media-libs/lv2 -python_single_target_python2_7 -python_targets_python2_7 python_single_target_python3_6
-
-app-emulation/wine-any staging
-
 sci-libs/fftw -cpu_flags_x86_avx2
 
-media-libs/opencv -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 -gtk3
+#media-libs/opencv -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 -gtk3
+
+media-libs/opencv -gtk3 ffmpeg opencl openexr
 
 net-print/hplip scanner
 
@@ -239,8 +226,6 @@ app-crypt/argon2 static-libs
 dev-libs/openssl tls-heartbeat static-libs
 sys-fs/lvm2 static-libs
 dev-libs/libaio static-libs
-
-app-emulation/wine-vanilla opencl vkd3d
 
 sys-block/gparted -xfs
 
@@ -262,3 +247,16 @@ dev-libs/gmp static-libs
 
 # To exclude media-video/cheese is redudante with kde-apps/kamoso.
 gnome-base/gnome-control-center -v4l
+
+# remove gtk version.
+net-p2p/transmission -gtk
+
+media-video/obs-studio fdk speex vlc
+
+app-crypt/veracrypt doas
+
+sys-devel/clang-runtime libcxx
+
+sys-devel/llvm gold
+
+sys-fs/libostree openssl

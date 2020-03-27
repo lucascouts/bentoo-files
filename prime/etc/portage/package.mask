@@ -21,6 +21,7 @@ dev-java/oracle-jdk-bin
 >sys-fs/lvm2-2.02.186-r1 # erro on compiling.
 <sys-devel/gcc-9.2.0 # mask older versions.
 dev-util/nvidia-cuda-toolkit # require old version of gcc.
+www-plugins/adobe-flash # mask that shit
 >app-emulation/containerd-1.2.13
 
 # Issue with x11-libs/pangox-compat!!!
