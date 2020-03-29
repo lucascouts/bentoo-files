@@ -1,5 +1,5 @@
 # version above is more slow to load.
-# >sys-boot/plymouth-0.8.8-r5
+>sys-boot/plymouth-0.8.8-r5
 
 # stable versions.
 >www-client/chromium-80.0.3987.149

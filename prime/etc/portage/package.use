@@ -260,3 +260,5 @@ sys-devel/clang-runtime libcxx
 sys-devel/llvm gold
 
 sys-fs/libostree openssl
+
+app-editors/vim -python_targets_python2_7 -python_targets_python3_6 python_targets_python3_7
