@@ -1,0 +1,24 @@
+{
+  "default_locale": "en",
+  "autostart_path": "~/.config/autostart/manjaro-hello.desktop",
+  "data_path": "/usr/share/manjaro-hello/data/",
+  "desktop_path": "/usr/share/applications/manjaro-hello.desktop",
+  "installer_path": "/usr/bin/calamares",
+  "live_path": "/run/miso/bootmnt/manjaro",
+  "locale_path": "/usr/share/locale/",
+  "logo_path": "/usr/share/icons/hicolor/64x64/apps/manjaro.png",
+  "save_path": "~/.config/manjaro-hello.json",
+  "ui_path": "/usr/share/manjaro-hello/ui/manjaro-hello.glade",
+  "urls": {
+    "development": "https://gitlab.manjaro.org",
+    "chat": "https://kiwiirc.com/client/irc.freenode.net/?nick=manjaro-web|?#manjaro",
+    "donate": "https://manjaro.org/donate",
+    "facebook": "https://www.facebook.com/ManjaroLinux",
+    "forum": "https://forum.manjaro.org",
+    "google+": "https://plus.google.com/118244873957924966264",
+    "mailling": "https://lists.manjaro.org/cgi-bin/mailman/listinfo",
+    "reddit": "https://www.reddit.com/r/ManjaroLinux",
+    "twitter": "https://twitter.com/ManjaroLinux",
+    "wiki": "https://wiki.manjaro.org"
+  }
+}
