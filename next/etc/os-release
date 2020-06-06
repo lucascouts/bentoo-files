@@ -1,8 +1,0 @@
-ID="funtoo"
-NAME="Funtoo GNU/Linux"
-PRETTY_NAME="Linux"
-VERSION="2020-04-13"
-VERSION_ID="generic_64-2020-04-13"
-ANSI_COLOR="0;34"
-HOME_URL="www.funtoo.org"
-BUG_REPORT_URL="bugs.funtoo.org"

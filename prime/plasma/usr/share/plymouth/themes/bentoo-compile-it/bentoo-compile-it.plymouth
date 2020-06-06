@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=bentoo-compile-it
+Description=A Plymouth of OS X Yosemite
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/bentoo-compile-it
+ScriptFile=/usr/share/plymouth/themes/bentoo-compile-it/bentoo-compile-it.script
