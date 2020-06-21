@@ -9,7 +9,7 @@ app-emulation/crossover-bin
 =games-emulation/pcsx2-1.4.0-r2
 =games-emulation/zsnes-1.51-r7
 =sys-fs/lvm2-2.02.187-r2
-=dev-lang/python-3.6.10
+=dev-lang/python-3.8.2-r2
 =media-libs/libvpx-1.8.2
 =app-emulation/docker-19.03.8
 =x11-apps/luit-1.1.1

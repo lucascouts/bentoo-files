@@ -20,3 +20,4 @@ app-emulation/runc **
 app-emulation/docker **
 app-emulation/containerd **
 dev-libs/openssl **
+dev-lang/perl **

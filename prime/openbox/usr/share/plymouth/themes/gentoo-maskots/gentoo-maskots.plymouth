@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=gentoo-maskots
-Description=A Plymouth of OS X Yosemite
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/gentoo-maskots
-ScriptFile=/usr/share/plymouth/themes/gentoo-maskots/gentoo-maskots.script

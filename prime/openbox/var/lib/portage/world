@@ -4,6 +4,7 @@ app-admin/sudo
 app-admin/syslog-ng
 app-editors/vim
 app-emulation/open-vm-tools
+app-emulation/virtualbox-guest-additions
 app-misc/livecd-tools
 app-misc/neofetch
 app-portage/cpuid2cpuflags
@@ -13,6 +14,7 @@ app-portage/layman
 dev-java/icedtea-bin
 dev-perl/Funtoo-Report
 dev-util/ccache
+dev-util/vulkan-tools
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
 media-fonts/baekmuk-fonts
@@ -24,15 +26,14 @@ media-fonts/noto
 media-fonts/ttf-bitstream-vera
 media-fonts/unifont
 media-gfx/inkscape
-media-libs/vulkan-loader
 media-sound/alsa-utils
 media-video/vlc
 net-dns/dnscrypt-proxy
 net-im/telegram-desktop-bin
 net-misc/anydesk-bin
 net-misc/ntp
+net-misc/r8101
 net-misc/r8168
-net-misc/zsync
 sys-apps/haveged
 sys-apps/irqbalance
 sys-apps/iucode_tool

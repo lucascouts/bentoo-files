@@ -5,7 +5,9 @@ app-admin/syslog-ng
 app-editors/vim
 app-editors/vscodium-bin
 app-emulation/docker
+app-emulation/lxd
 app-emulation/open-vm-tools
+app-emulation/virtualbox-guest-additions
 app-misc/livecd-tools
 app-misc/neofetch
 app-portage/cpuid2cpuflags
@@ -15,6 +17,7 @@ app-portage/layman
 dev-java/icedtea-bin
 dev-perl/Funtoo-Report
 dev-util/ccache
+dev-util/vulkan-tools
 games-util/joystick
 mail-client/thunderbird-bin
 media-fonts/arphicfonts
@@ -29,7 +32,6 @@ media-fonts/ttf-bitstream-vera
 media-fonts/unifont
 media-gfx/gimp
 media-gfx/inkscape
-media-libs/vulkan-loader
 media-sound/alsa-utils
 media-video/obs-studio
 media-video/simplescreenrecorder
@@ -39,10 +41,12 @@ net-im/discord-bin
 net-im/telegram-desktop-bin
 net-misc/anydesk-bin
 net-misc/ntp
+net-misc/r8101
 net-misc/r8168
-net-misc/zsync
 net-p2p/freenet
 net-p2p/transmission
+net-vpn/i2p
+net-vpn/networkmanager-openvpn
 net-vpn/tor
 sci-calculators/galculator
 sys-apps/bleachbit
@@ -67,6 +71,7 @@ sys-process/htop
 www-client/brave-bin
 www-client/torbrowser-launcher
 www-misc/profile-sync-daemon
+www-servers/onionshare
 x11-apps/mesa-progs
 x11-base/xorg-x11
 x11-drivers/nvidia-kernel-modules
@@ -76,3 +81,4 @@ x11-misc/xdg-user-dirs
 x11-terms/xfce4-terminal
 xfce-base/thunar
 xfce-base/xfce4-meta
+xfce-extra/xfce4-whiskermenu-plugin

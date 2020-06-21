@@ -2,8 +2,8 @@
 >sys-boot/plymouth-0.8.8-r5
 
 # Stable versions.
->www-client/chromium-83.0.4103.97
->www-client/google-chrome-83.0.4103.97
+>www-client/chromium-83.0.4103.106
+>www-client/google-chrome-83.0.4103.106
 
 # Higher versions isn't compatible with openrc anymore.
 >www-misc/profile-sync-daemon-5.75
@@ -34,8 +34,3 @@ www-plugins/adobe-flash # mask that shit
 
 #>sys-kernel/bentoo-sources-5.6.15
 >net-misc/openssh-8.3_p1-r1
-
-
-
-
-=media-sound/jack2-1.9.14

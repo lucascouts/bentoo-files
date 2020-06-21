@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=compile-it
-Description=A Plymouth of OS X Yosemite
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/compile-it
-ScriptFile=/usr/share/plymouth/themes/compile-it/compile-it.script

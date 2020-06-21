@@ -1,12 +1,18 @@
 ---
 componentName:  default
-welcomeStyleCalamares:   false
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+sidebar: widget
+navigation: widget
 
 strings:
-    productName:         Bentoo OS
+    productName:         "@{NAME}"
     shortProductName:    Bentoo
-    version:             2018.11 LTS
-    shortVersion:        2018.11
+    version:             1 Alpha
+    shortVersion:        1.0 α
     versionedName:       Bentoo OS
     shortVersionedName:  Bentoo
     bootloaderEntryName: Bentoo OS
@@ -14,15 +20,20 @@ strings:
     supportUrl:          https://github.com/lucascouts/bentoo/issues
     knownIssuesUrl:      https://bentoo.info
     releaseNotesUrl:     https://bentoo.info/changelog/
+    donateUrl:           https://kde.org/community/donations/index.php
 
 welcomeExpandingLogo:   true
 
 images:
+    # productBanner:       "banner.png"
     productLogo:         "bentoo_icon.svg"
     productIcon:         "bentoo_icon.svg"
+    # productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
 slideshow:               "show.qml"
+
+slideshowAPI: 2
 
 style:
    sidebarBackground:    "#292F34"

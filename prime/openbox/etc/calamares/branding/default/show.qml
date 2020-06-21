@@ -1,6 +1,7 @@
 /* === This file is part of Calamares - <https://github.com/calamares> ===
  *
  *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
+ *   Copyright 2018, Adriaan de Groot <groot@kde.org>
  *
  *   Calamares is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -23,15 +24,21 @@ Presentation
 {
     id: presentation
 
+    function nextSlide() {
+        console.log("QML Component (default slideshow) Next slide");
+        presentation.goToNextSlide();
+    }
+
     Timer {
         id: advanceTimer
-        interval: 10000
-        running: false
+        interval: 1000
+        running: presentation.activatedInCalamares
         repeat: true
-        onTriggered: presentation.goToNextSlide()
+        onTriggered: nextSlide()
     }
-    
+
     Slide {
+
         Image {
             id: background
             source: "slide1.png"
@@ -50,5 +57,8 @@ Presentation
         }
     }
 
-    Component.onCompleted: advanceTimer.running = true
+    function onLeave() {
+        console.log("QML Component (default slideshow) deactivated");
+    }
+
 }

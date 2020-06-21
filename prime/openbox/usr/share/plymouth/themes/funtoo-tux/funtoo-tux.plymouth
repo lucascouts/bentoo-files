@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=funtoo-tux
-Description=A Plymouth of OS X Yosemite
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/funtoo-tux
-ScriptFile=/usr/share/plymouth/themes/funtoo-tux/funtoo-tux.script

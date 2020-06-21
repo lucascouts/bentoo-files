@@ -14,9 +14,16 @@ x11-wm/openbox imlib
 
 ### resolve python_single_target dependence.
 
+app-emulation/crossover-bin python_single_target_python2_7
+app-emulation/playonlinux python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
 net-libs/telepathy-glib python_single_target_python2_7
-media-libs/lv2 -python_single_target_python2_7
+media-libs/lv2 -python_single_target_python2_7 python_single_target_python3_6
+
+# improviment.
+virtual/wine staging
+app-emulation/wine-vanilla opencl osmesa vkd3d
+app-emulation/wine-staging opencl osmesa sdl vkd3d vulkan
 
 # required by app-misc/neofetch
 www-client/w3m imlib
@@ -31,7 +38,13 @@ app-office/libreoffice -bluetooth -eds -mariadb accessibility googledrive
 www-servers/apache -threads apache2_modules_auth_digest apache2_mpms_prefork
 
 #
+gnome-base/gnome-extra-apps -recipes
+
+#
 dev-python/PyQt5 declarative network
+
+#
+app-arch/p7zip rar wxwidgets
 
 #
 sys-boot/grub mount
@@ -44,6 +57,15 @@ x11-base/xorg-server -suid kdrive xvfb
 
 #
 kde-misc/kdeconnect app bluetooth mousepad
+
+#
+kde-apps/spectacle share
+
+#
+kde-apps/dolphin activities thumbnail
+
+#
+kde-apps/ark zip
 
 #
 net-libs/nodejs inspector
@@ -93,18 +115,47 @@ sys-apps/flatpak policykit
 
 gnome-base/gnome-vfs gnutls -ssl
 
+
+### gnome
+
+media-libs/libmediaart -qt5
+
+### minimal
+
 x11-libs/wxGTK libnotify
 
 x11-libs/gtk+ colord
 
 media-sound/pulseaudio gconf
 
+sys-boot/plymouth gdm
+
+media-libs/phonon designer
+dev-qt/qtwebchannel qml
+dev-qt/qtxmlpatterns qml
+dev-qt/qtwebengine widgets
+dev-qt/designer declarative
+dev-qt/qtmultimedia qml widgets
+kde-frameworks/knotifications phonon
+dev-qt/qtscript scripttools
+media-libs/libvpx svc
+kde-frameworks/knotifyconfig phonon
+dev-qt/qtquickcontrols2 widgets
+dev-qt/qtwayland xcomposite
+dev-qt/qtsensors qml
+kde-frameworks/kidletime xscreensaver
+
+dev-qt/linguist-tools qml
+dev-qt/qtsql mysql
+
 net-libs/webkit-gtk libnotify
 
 #
-net-misc/networkmanager -nss bluetooth connection-sharing modemmanager policykit
+net-misc/networkmanager -nss bluetooth connection-sharing gnutls policykit
 
 net-fs/samba acl gnutls
+
+kde-plasma/plasma-meta bluetooth grub thunderbolt
 
 dev-db/postgresql llvm
 
@@ -128,6 +179,8 @@ gnome-base/gvfs udisks
 
 net-dns/avahi mdnsresponder-compat
 
+kde-apps/kio-extras activities phonon
+
 sys-libs/ncurses tinfo
 
 media-libs/gd fontconfig
@@ -138,7 +191,7 @@ dev-java/openjdk gentoo-vm
 
 dev-libs/apr-util -berkdb mysql
 
-gnome-base/gconf policykit 
+gnome-base/gconf policykit
 
 net-libs/gnome-online-accounts vala
 
@@ -152,7 +205,7 @@ gnome-base/gnome-settings-daemon policykit
 
 sci-libs/fftw -cpu_flags_x86_avx2
 
-media-libs/opencv -gtk3 ffmpeg opencl openexr qt5
+media-libs/opencv -gtk3 ffmpeg opencl openexr
 
 net-print/hplip scanner
 
@@ -178,7 +231,9 @@ app-emulation/faudio utils
 
 sys-libs/libxcrypt system static-libs
 
-media-video/ffmpeg nvenc opencl openh264 opus 
+app-admin/calamares doas python_single_target_python3_6
+
+media-video/ffmpeg nvenc opencl openh264 opus
 
 app-emulation/docker-compose -python_targets_python3_7
 
@@ -188,7 +243,15 @@ gnome-base/gvfs -samba
 
 dev-libs/gmp static-libs
 
+# To exclude media-video/cheese is redudante with kde-apps/kamoso.
+gnome-base/gnome-control-center -v4l
+
+# remove gtk version.
+net-p2p/transmission -gtk
+
 media-video/obs-studio fdk speex vlc
+
+app-crypt/veracrypt doas
 
 sys-devel/clang-runtime libcxx
 
@@ -222,12 +285,18 @@ dev-python/typing python_targets_python2_7
 dev-python/ply python_targets_python2_7
 dev-python/pycairo python_targets_python2_7
 dev-python/pygtk python_targets_python2_7
+dev-python/pygobject python_targets_python2_
+dev-python/pygobject python_targets_python2_7
+net-analyzer/net-snmp python_targets_python2_7
+app-admin/system-config-printer python_targets_python2_7
+sys-libs/libieee1284 python_targets_python2_7
+dev-python/dbus-python python_targets_python2_7
+dev-python/pycups python_targets_python2_7
+dev-python/pycurl python_targets_python2_7
 dev-python/pygobject python_targets_python2_7
 dev-python/setuptools-compat python_targets_python2_7
 
 media-libs/libsdl2 -vulkan
 sys-boot/plymouth gdm
-
-xfce-base/xfce4-session -xscreensaver
 
 net-libs/gnutls pkcs11

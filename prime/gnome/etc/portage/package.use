@@ -151,9 +151,9 @@ dev-qt/qtsql mysql
 net-libs/webkit-gtk libnotify
 
 #
-net-misc/networkmanager -nss bluetooth connection-sharing modemmanager policykit
+net-misc/networkmanager -nss bluetooth connection-sharing gnutls policykit
 
-net-fs/samba acl client gnutls
+net-fs/samba acl gnutls
 
 kde-plasma/plasma-meta bluetooth grub thunderbolt
 
@@ -205,8 +205,6 @@ gnome-base/gnome-settings-daemon policykit
 
 sci-libs/fftw -cpu_flags_x86_avx2
 
-#media-libs/opencv -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 -gtk3
-
 media-libs/opencv -gtk3 ffmpeg opencl openexr
 
 net-print/hplip scanner
@@ -246,7 +244,7 @@ gnome-base/gvfs -samba
 dev-libs/gmp static-libs
 
 # To exclude media-video/cheese is redudante with kde-apps/kamoso.
-gnome-base/gnome-control-center -v4l libinput
+gnome-base/gnome-control-center -v4l
 
 # remove gtk version.
 net-p2p/transmission -gtk
@@ -299,26 +297,6 @@ dev-python/pygobject python_targets_python2_7
 dev-python/setuptools-compat python_targets_python2_7
 
 media-libs/libsdl2 -vulkan
-
 sys-boot/plymouth gdm
 
-media-plugins/grilo-plugins tracker
-dev-libs/libgdata gnome-online-accounts
-app-crypt/gcr vala
-gnome-base/librsvg vala
-media-libs/gsound vala
-dev-libs/folks eds
-gnome-extra/evolution-data-server vala
-
-x11-wm/mutter -nvidia -wayland
-
 net-libs/gnutls pkcs11
-
-media-sound/jack2 python_targets_python2_7
-
-
-
-
-
-
-media-sound/jack2 -ieee1394
