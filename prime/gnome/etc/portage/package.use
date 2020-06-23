@@ -9,11 +9,6 @@ x11-apps/mesa-progs gles2
 dev-libs/libpcre pcre16
 dev-libs/libpcre2 pcre16
 
-# dependence from Openbox to improve the use.
-x11-wm/openbox imlib
-
-### resolve python_single_target dependence.
-
 app-emulation/crossover-bin python_single_target_python2_7
 app-emulation/playonlinux python_single_target_python2_7
 media-gfx/gimp python_single_target_python2_7
@@ -143,7 +138,6 @@ kde-frameworks/knotifyconfig phonon
 dev-qt/qtquickcontrols2 widgets
 dev-qt/qtwayland xcomposite
 dev-qt/qtsensors qml
-kde-frameworks/kidletime xscreensaver
 
 dev-qt/linguist-tools qml
 dev-qt/qtsql mysql
@@ -151,9 +145,9 @@ dev-qt/qtsql mysql
 net-libs/webkit-gtk libnotify
 
 #
-net-misc/networkmanager -nss bluetooth connection-sharing gnutls policykit
+net-misc/networkmanager -nss bluetooth connection-sharing gnutls modemmanager policykit
 
-net-fs/samba acl gnutls
+net-fs/samba acl client gnutls
 
 kde-plasma/plasma-meta bluetooth grub thunderbolt
 
@@ -205,6 +199,8 @@ gnome-base/gnome-settings-daemon policykit
 
 sci-libs/fftw -cpu_flags_x86_avx2
 
+#media-libs/opencv -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 -gtk3
+
 media-libs/opencv -gtk3 ffmpeg opencl openexr
 
 net-print/hplip scanner
@@ -244,10 +240,10 @@ gnome-base/gvfs -samba
 dev-libs/gmp static-libs
 
 # To exclude media-video/cheese is redudante with kde-apps/kamoso.
-gnome-base/gnome-control-center -v4l
+gnome-base/gnome-control-center -v4l libinput
 
 # remove gtk version.
-net-p2p/transmission -gtk
+net-p2p/transmission -qt5
 
 media-video/obs-studio fdk speex vlc
 
@@ -297,6 +293,21 @@ dev-python/pygobject python_targets_python2_7
 dev-python/setuptools-compat python_targets_python2_7
 
 media-libs/libsdl2 -vulkan
+
 sys-boot/plymouth gdm
 
+media-plugins/grilo-plugins tracker
+dev-libs/libgdata gnome-online-accounts
+app-crypt/gcr vala
+gnome-base/librsvg vala
+media-libs/gsound vala
+dev-libs/folks eds
+gnome-extra/evolution-data-server vala
+
 net-libs/gnutls pkcs11
+
+media-sound/jack2 python_targets_python2_7
+
+media-sound/jack2 -ieee1394
+
+x11-misc/lightdm gnome
