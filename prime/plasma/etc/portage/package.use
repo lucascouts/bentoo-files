@@ -16,7 +16,7 @@ x11-wm/openbox imlib
 
 app-emulation/crossover-bin python_single_target_python2_7
 app-emulation/playonlinux python_single_target_python2_7
-media-gfx/gimp python_single_target_python2_7
+media-gfx/gimp python_targets_python2_7 python_single_target_python2_7
 net-libs/telepathy-glib python_single_target_python2_7
 media-libs/lv2 -python_single_target_python2_7 python_single_target_python3_6
 
@@ -32,7 +32,7 @@ www-client/w3m imlib
 x11-libs/libwnck startup-notification
 
 #
-app-office/libreoffice -bluetooth -eds -mariadb accessibility googledrive
+app-office/libreoffice -bluetooth -eds -gtk -mariadb accessibility googledrive
 
 #
 www-servers/apache -threads apache2_modules_auth_digest apache2_mpms_prefork
@@ -111,7 +111,7 @@ www-client/firefox -startup-notification clang lto hwaccel
 www-client/firefox-bin startup-notification
 mail-client/thunderbird -startup-notification clang lto
 
-sys-apps/flatpak policykit
+sys-apps/flatpak kde policykit
 
 gnome-base/gnome-vfs gnutls -ssl
 
@@ -175,7 +175,7 @@ sys-firmware/intel-microcode initramfs
 
 app-emulation/vmware-workstation bundled-libs
 
-gnome-base/gvfs udisks
+gnome-base/gvfs -google -samba udisks
 
 net-dns/avahi mdnsresponder-compat
 
@@ -202,8 +202,6 @@ dev-libs/libgweather vala
 media-libs/cogl gles2
 
 gnome-base/gnome-settings-daemon policykit
-
-sci-libs/fftw -cpu_flags_x86_avx2
 
 media-libs/opencv -gtk3 ffmpeg opencl openexr
 
@@ -238,8 +236,6 @@ media-video/ffmpeg nvenc opencl openh264 opus
 app-emulation/docker-compose -python_targets_python3_7
 
 app-crypt/pinentry gnome-keyring
-
-gnome-base/gvfs -samba
 
 dev-libs/gmp static-libs
 
@@ -297,6 +293,26 @@ dev-python/pygobject python_targets_python2_7
 dev-python/setuptools-compat python_targets_python2_7
 
 media-libs/libsdl2 -vulkan
-sys-boot/plymouth gdm
+sys-boot/plymouth gdm gtk
 
 net-libs/gnutls pkcs11
+
+app-text/txt2tags python_targets_python2_7
+dev-libs/libjcat gpg pkcs7
+sys-apps/fwupd agent nvme tpm uefi
+
+# disable iris as default on x11 and mesa.
+media-libs/mesa -video_cards_gallium-iris
+x11-base/xorg-drivers -video_cards_gallium-iris
+
+sys-libs/libseccomp static-libs
+
+app-crypt/gcr gtk
+
+app-laptop/laptop-mode-tools bluetooth
+
+sys-apps/shadow -cracklib
+
+sys-kernel/bentoo-kernel-bin -source
+
+app-arch/xz-utils static-libs

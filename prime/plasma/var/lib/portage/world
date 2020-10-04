@@ -5,12 +5,13 @@ app-admin/syslog-ng
 app-arch/p7zip
 app-arch/rar
 app-arch/unrar
+app-cdr/dolphin-plugins-mountiso
 app-editors/vim
 app-editors/vscodium-bin
 app-emulation/docker
 app-emulation/lxd
 app-emulation/open-vm-tools
-app-emulation/virtualbox-guest-additions
+app-laptop/laptop-mode-tools
 app-misc/livecd-tools
 app-misc/neofetch
 app-office/libreoffice
@@ -19,7 +20,6 @@ app-portage/eix
 app-portage/genlop
 app-portage/layman
 dev-java/icedtea-bin
-dev-perl/Funtoo-Report
 dev-util/ccache
 dev-util/vulkan-tools
 games-platforms/steam-nvidia-launcher
@@ -50,11 +50,14 @@ media-fonts/ttf-bitstream-vera
 media-fonts/unifont
 media-gfx/gimp
 media-gfx/inkscape
+media-gfx/krita
 media-sound/alsa-utils
 media-sound/elisa
+media-video/obs-studio
 media-video/simplescreenrecorder
 media-video/vlc
 net-dns/dnscrypt-proxy
+net-fs/samba
 net-ftp/filezilla
 net-im/discord-bin
 net-im/telegram-desktop-bin
@@ -72,6 +75,7 @@ net-vpn/tor
 sci-calculators/galculator
 sys-apps/bleachbit
 sys-apps/flatpak
+sys-apps/fwupd
 sys-apps/haveged
 sys-apps/irqbalance
 sys-apps/iucode_tool
@@ -88,8 +92,9 @@ sys-fs/dmraid
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
-sys-kernel/bentoo-sources
+sys-kernel/bentoo-kernel-bin
 sys-kernel/genkernel-next
+sys-kernel/kpatch
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/brave-bin

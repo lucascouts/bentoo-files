@@ -29,6 +29,7 @@ then
 	else
 		rc-update add virtualbox-guest-additions default
 		rc-service virtualbox-guest-additions start
+		VBoxClient -f --vmsvga
 		echo -e $added
 	fi
 elif [ -n "$vmware" ];

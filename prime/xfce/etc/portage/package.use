@@ -14,7 +14,7 @@ x11-wm/openbox imlib
 
 ### resolve python_single_target dependence.
 
-media-gfx/gimp python_single_target_python2_7
+media-gfx/gimp python_targets_python2_7 python_single_target_python2_7
 net-libs/telepathy-glib python_single_target_python2_7
 media-libs/lv2 -python_single_target_python2_7
 
@@ -79,7 +79,7 @@ www-servers/onionshare -nautilus
 
 net-dns/dnsmasq script
 
-media-libs/mlt fftw frei0r kdenlive melt
+media-libs/mlt fftw frei0r kdenlive melt qt5
 
 media-video/vlc opus
 
@@ -149,8 +149,6 @@ dev-libs/libgweather vala
 media-libs/cogl gles2
 
 gnome-base/gnome-settings-daemon policykit
-
-sci-libs/fftw -cpu_flags_x86_avx2
 
 media-libs/opencv -gtk3 ffmpeg opencl openexr qt5
 
@@ -231,3 +229,27 @@ sys-boot/plymouth gdm
 xfce-base/xfce4-session -xscreensaver
 
 net-libs/gnutls pkcs11
+
+app-text/poppler qt5
+
+app-text/txt2tags python_targets_python2_7
+dev-libs/libjcat gpg pkcs7
+sys-apps/fwupd agent nvme tpm uefi
+
+# disable iris as default on x11 and mesa.
+media-libs/mesa -video_cards_gallium-iris
+x11-base/xorg-drivers -video_cards_gallium-iris
+
+xfce-extra/xfce4-weather-plugin upower
+
+sys-libs/libseccomp static-libs
+
+xfce-base/xfce4-meta upower
+
+app-laptop/laptop-mode-tools bluetooth
+
+sys-apps/shadow -cracklib
+
+sys-kernel/bentoo-kernel-bin -source
+
+app-arch/xz-utils static-libs

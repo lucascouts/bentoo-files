@@ -4,7 +4,7 @@ app-admin/sudo
 app-admin/syslog-ng
 app-editors/vim
 app-emulation/open-vm-tools
-app-emulation/virtualbox-guest-additions
+app-laptop/laptop-mode-tools
 app-misc/livecd-tools
 app-misc/neofetch
 app-portage/cpuid2cpuflags
@@ -12,7 +12,6 @@ app-portage/eix
 app-portage/genlop
 app-portage/layman
 dev-java/icedtea-bin
-dev-perl/Funtoo-Report
 dev-util/ccache
 dev-util/vulkan-tools
 media-fonts/arphicfonts
@@ -25,15 +24,15 @@ media-fonts/liberation-fonts
 media-fonts/noto
 media-fonts/ttf-bitstream-vera
 media-fonts/unifont
-media-gfx/inkscape
 media-sound/alsa-utils
-media-video/vlc
 net-dns/dnscrypt-proxy
 net-im/telegram-desktop-bin
 net-misc/anydesk-bin
 net-misc/ntp
 net-misc/r8101
 net-misc/r8168
+sys-apps/flatpak
+sys-apps/fwupd
 sys-apps/haveged
 sys-apps/irqbalance
 sys-apps/iucode_tool
@@ -47,8 +46,9 @@ sys-fs/dmraid
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
-sys-kernel/bentoo-sources
+sys-kernel/bentoo-kernel-bin
 sys-kernel/genkernel-next
+sys-kernel/kpatch
 sys-kernel/linux-firmware
 sys-process/htop
 www-client/brave-bin
@@ -57,7 +57,6 @@ x11-apps/mesa-progs
 x11-base/xorg-x11
 x11-drivers/nvidia-kernel-modules
 x11-misc/lightdm
-x11-misc/spacefm
 x11-misc/vdpauinfo
 x11-misc/xdg-user-dirs
 x11-terms/xfce4-terminal

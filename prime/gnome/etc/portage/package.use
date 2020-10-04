@@ -11,7 +11,7 @@ dev-libs/libpcre2 pcre16
 
 app-emulation/crossover-bin python_single_target_python2_7
 app-emulation/playonlinux python_single_target_python2_7
-media-gfx/gimp python_single_target_python2_7
+media-gfx/gimp python_targets_python2_7 python_single_target_python2_7
 net-libs/telepathy-glib python_single_target_python2_7
 media-libs/lv2 -python_single_target_python2_7 python_single_target_python3_6
 
@@ -96,7 +96,7 @@ www-servers/onionshare -nautilus
 
 net-dns/dnsmasq script
 
-media-libs/mlt fftw frei0r kdenlive melt
+media-libs/mlt fftw frei0r kdenlive melt qt5
 
 media-video/vlc opus
 
@@ -145,7 +145,7 @@ dev-qt/qtsql mysql
 net-libs/webkit-gtk libnotify
 
 #
-net-misc/networkmanager -nss bluetooth connection-sharing gnutls modemmanager policykit
+net-misc/networkmanager -nss bluetooth connection-sharing gnutls modemmanager policykit vala
 
 net-fs/samba acl client gnutls
 
@@ -179,7 +179,7 @@ sys-libs/ncurses tinfo
 
 media-libs/gd fontconfig
 
-app-admin/system-config-printer -python_targets_python3_7 policykit
+app-admin/system-config-printer policykit
 
 dev-java/openjdk gentoo-vm
 
@@ -197,11 +197,7 @@ media-libs/cogl gles2
 
 gnome-base/gnome-settings-daemon policykit
 
-sci-libs/fftw -cpu_flags_x86_avx2
-
-#media-libs/opencv -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 -gtk3
-
-media-libs/opencv -gtk3 ffmpeg opencl openexr
+media-libs/opencv -gtk3 ffmpeg opencl openexr qt5
 
 net-print/hplip scanner
 
@@ -232,8 +228,6 @@ app-admin/calamares doas python_single_target_python3_6
 media-video/ffmpeg nvenc opencl openh264 opus
 
 app-emulation/docker-compose -python_targets_python3_7
-
-app-crypt/pinentry gnome-keyring
 
 gnome-base/gvfs -samba
 
@@ -297,7 +291,6 @@ media-libs/libsdl2 -vulkan
 sys-boot/plymouth gdm
 
 media-plugins/grilo-plugins tracker
-dev-libs/libgdata gnome-online-accounts
 app-crypt/gcr vala
 gnome-base/librsvg vala
 media-libs/gsound vala
@@ -310,4 +303,34 @@ media-sound/jack2 python_targets_python2_7
 
 media-sound/jack2 -ieee1394
 
-x11-misc/lightdm gnome
+app-text/txt2tags python_targets_python2_7
+dev-libs/libjcat gpg pkcs7
+sys-apps/fwupd agent nvme tpm uefi
+
+# disable iris as default on x11 and mesa.
+media-libs/mesa -video_cards_gallium-iris
+x11-base/xorg-drivers -video_cards_gallium-iris
+
+sys-apps/gnome-disk-utility fat
+
+dev-libs/libgdata gnome-online-accounts
+
+app-crypt/pinentry gnome-keyring
+
+sys-libs/libseccomp static-libs
+
+gnome-extra/nm-applet appindicator modemmanager
+
+app-text/poppler qt5
+
+net-wireless/wpa_supplicant p2p
+
+gnome-base/gnome -classic
+
+app-laptop/laptop-mode-tools bluetooth
+
+sys-apps/shadow -cracklib
+
+sys-kernel/bentoo-kernel-bin -source
+
+app-arch/xz-utils static-libs
