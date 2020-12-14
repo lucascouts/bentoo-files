@@ -1,0 +1,4 @@
+[browser-kit]
+location = /var/git/meta-repo/kits/browser-kit
+auto-sync = no
+priority = 1

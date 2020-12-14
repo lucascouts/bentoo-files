@@ -1,0 +1,4 @@
+[core-gl-kit]
+location = /var/git/meta-repo/kits/core-gl-kit
+auto-sync = no
+priority = 1

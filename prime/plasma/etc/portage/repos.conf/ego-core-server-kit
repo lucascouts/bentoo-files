@@ -1,0 +1,4 @@
+[core-server-kit]
+location = /var/git/meta-repo/kits/core-server-kit
+auto-sync = no
+priority = 1

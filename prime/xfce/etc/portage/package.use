@@ -25,7 +25,7 @@ www-client/w3m imlib
 x11-libs/libwnck startup-notification
 
 #
-app-office/libreoffice -bluetooth -eds -mariadb accessibility googledrive
+app-office/libreoffice -bluetooth -branding -eds -gtk -mariadb accessibility googledrive
 
 #
 www-servers/apache -threads apache2_modules_auth_digest apache2_mpms_prefork
