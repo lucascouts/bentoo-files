@@ -1,4 +1,0 @@
-[qt-kit]
-location = /var/git/meta-repo/kits/qt-kit
-auto-sync = no
-priority = 1

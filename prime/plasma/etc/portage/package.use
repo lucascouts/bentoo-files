@@ -229,8 +229,6 @@ app-emulation/faudio utils
 
 sys-libs/libxcrypt system static-libs
 
-app-admin/calamares doas
-
 media-video/ffmpeg nvenc opencl openh264 opus
 
 app-emulation/docker-compose -python_targets_python3_7
@@ -247,7 +245,6 @@ net-p2p/transmission -gtk
 
 media-video/obs-studio fdk speex vlc
 
-app-crypt/veracrypt doas
 
 sys-devel/clang-runtime libcxx
 
@@ -316,3 +313,9 @@ sys-apps/shadow -cracklib
 sys-kernel/bentoo-kernel-bin -source
 
 app-arch/xz-utils static-libs
+
+#
+net-vpn/networkmanager-openvpn gnome
+
+media-libs/babl lcms
+media-libs/gegl lcms

@@ -66,6 +66,7 @@ sys-devel/distcc
 sys-devel/gdb
 sys-firmware/intel-microcode
 sys-fs/dmraid
+sys-fs/exfatprogs
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-fs/squashfs-tools

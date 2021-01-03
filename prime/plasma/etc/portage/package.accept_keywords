@@ -22,3 +22,4 @@ app-emulation/containerd **
 dev-libs/openssl **
 dev-lang/perl **
 sys-auth/elogind **
+media-gfx/gimp **

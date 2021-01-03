@@ -13,8 +13,8 @@ core-kit:funtoo/1.0/linux-gnu/mix-ins/gfxcard-radeon
 core-kit:funtoo/1.0/linux-gnu/mix-ins/gfxcard-nvidia
 core-kit:funtoo/1.0/linux-gnu/mix-ins/gfxcard-intel
 core-kit:funtoo/1.0/linux-gnu/mix-ins/media-pro
-core-kit:funtoo/1.0/linux-gnu/mix-ins/kde-plasma-5-new
 core-kit:funtoo/1.0/linux-gnu/mix-ins/gfxcard-intel-classic
+core-kit:funtoo/1.0/linux-gnu/mix-ins/gnome-3.16-fixups
 core-kit:funtoo/1.0/linux-gnu/mix-ins/gfxcard-vmware
 browser-kit:funtoo/kits/python-kit/3.7-release
 core-gl-kit:funtoo/kits/python-kit/3.7-release

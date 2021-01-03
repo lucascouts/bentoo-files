@@ -253,3 +253,6 @@ sys-apps/shadow -cracklib
 sys-kernel/bentoo-kernel-bin -source
 
 app-arch/xz-utils static-libs
+
+media-libs/babl lcms
+media-libs/gegl lcms

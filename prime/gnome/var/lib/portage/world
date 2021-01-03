@@ -24,6 +24,7 @@ dev-util/vulkan-tools
 games-platforms/steam-nvidia-launcher
 gnome-base/gnome
 kde-apps/kdenlive
+kde-apps/okular
 mail-client/thunderbird-bin
 media-fonts/arphicfonts
 media-fonts/artwiz-aleczapka-en
@@ -48,7 +49,6 @@ net-im/discord-bin
 net-im/telegram-desktop-bin
 net-irc/konversation
 net-libs/webkit
-net-libs/webkit-gtk
 net-misc/anydesk-bin
 net-misc/ntp
 net-misc/r8101
@@ -69,12 +69,12 @@ sys-apps/iucode_tool
 sys-apps/lm_sensors
 sys-block/zram-init
 sys-boot/etcher-bin
-sys-boot/grub
 sys-boot/plymouth-openrc-plugin
 sys-devel/distcc
 sys-devel/gdb
 sys-firmware/intel-microcode
 sys-fs/dmraid
+sys-fs/exfatprogs
 sys-fs/mdadm
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
