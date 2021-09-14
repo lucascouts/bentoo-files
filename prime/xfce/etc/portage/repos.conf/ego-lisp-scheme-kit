@@ -1,0 +1,4 @@
+[lisp-scheme-kit]
+location = /var/git/meta-repo/kits/lisp-scheme-kit
+auto-sync = no
+priority = 1

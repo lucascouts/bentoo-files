@@ -1,0 +1,4 @@
+[xfce-kit]
+location = /var/git/meta-repo/kits/xfce-kit
+auto-sync = no
+priority = 1

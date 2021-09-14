@@ -1,0 +1,4 @@
+[mate-kit]
+location = /var/git/meta-repo/kits/mate-kit
+auto-sync = no
+priority = 1
