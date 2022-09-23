@@ -1,0 +1,1299 @@
+# improviment.
+virtual/wine staging abi_x86_32
+app-emulation/wine-staging opencl vkd3d abi_x86_32
+
+# required by x11-libs/libXext-1.3.4::gentoo
+# required by media-libs/libglvnd-1.3.2-r2::gentoo[X]
+# required by media-libs/mesa-21.0.0_rc3::gentoo
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libX11-1.7.0 abi_x86_32
+# required by x11-libs/libxcb-1.14::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXau-1.0.9-r1 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libxcb-1.14 abi_x86_32
+# required by x11-libs/libxcb-1.14::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXdmcp-1.1.3 abi_x86_32
+# required by x11-libs/libxcb-1.14::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-base/xcb-proto-1.14.1 abi_x86_32
+# required by x11-libs/libva-2.10.0::gentoo[opengl]
+# required by x11-libs/libva-vdpau-driver-0.7.4-r5::gentoo
+>=virtual/opengl-7.0-r2 abi_x86_32
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20201118::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay
+# required by games-util/steam-meta (argument)
+>=media-libs/mesa-21.0.0_rc3 abi_x86_32
+# required by dev-libs/wayland-1.19.0::gentoo
+# required by x11-libs/libva-intel-driver-2.4.1::gentoo[wayland]
+# required by x11-libs/libva-2.10.0::gentoo[video_cards_intel,video_cards_i965]
+# required by x11-libs/libva-vdpau-driver-0.7.4-r5::gentoo
+>=dev-libs/expat-2.2.10 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=media-libs/libglvnd-1.3.2-r2 abi_x86_32
+# required by sys-devel/llvm-11.0.1::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=sys-libs/zlib-1.2.11-r3 abi_x86_32
+# required by x11-libs/libva-intel-driver-2.4.1::gentoo
+>=x11-libs/libva-2.10.0 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[gallium,vdpau]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libvdpau-1.4 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[gallium,xvmc]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXvMC-1.0.12 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[wayland]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=dev-libs/wayland-1.19.0 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libdrm-2.4.104 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libxshmfence-1.3-r2 abi_x86_32
+# required by x11-libs/libXxf86vm-1.1.4-r2::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXext-1.3.4 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXxf86vm-1.1.4-r2 abi_x86_32
+# required by x11-libs/libva-2.10.0::gentoo[X]
+# required by x11-libs/libva-vdpau-driver-0.7.4-r5::gentoo
+>=x11-libs/libXfixes-5.0.3-r3 abi_x86_32
+# required by dev-libs/elfutils-0.182::gentoo[zstd]
+# required by virtual/libelf-3::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=app-arch/zstd-1.4.8-r1 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=sys-devel/llvm-11.0.1 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXrandr-1.5.2 abi_x86_32
+# required by x11-libs/libXrandr-1.5.2::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[X]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXrender-0.9.10-r2 abi_x86_32
+# required by sys-devel/llvm-11.0.1::gentoo[libffi]
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=dev-libs/libffi-3.3-r2 abi_x86_32
+# required by sys-devel/llvm-11.0.1::gentoo[ncurses]
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=sys-libs/ncurses-6.2-r1 abi_x86_32
+# required by x11-libs/libdrm-2.4.104::gentoo[video_cards_intel]
+# required by x11-libs/libva-intel-driver-2.4.1::gentoo
+# required by x11-libs/libva-2.10.0::gentoo[video_cards_intel,video_cards_i965]
+# required by x11-libs/libva-vdpau-driver-0.7.4-r5::gentoo
+>=x11-libs/libpciaccess-0.16 abi_x86_32
+# required by dev-libs/wayland-1.19.0::gentoo
+# required by x11-libs/libva-intel-driver-2.4.1::gentoo[wayland]
+# required by x11-libs/libva-2.10.0::gentoo[video_cards_intel,video_cards_i965]
+# required by x11-libs/libva-vdpau-driver-0.7.4-r5::gentoo
+>=dev-util/wayland-scanner-1.19.0 abi_x86_32
+# required by x11-libs/libXvMC-1.0.12::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[gallium,xvmc]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXv-1.0.11-r2 abi_x86_32
+# required by x11-libs/libva-2.10.0::gentoo[video_cards_nvidia,vdpau]
+# required by x11-libs/libva-intel-driver-2.4.1::gentoo
+>=x11-libs/libva-vdpau-driver-0.7.4-r5 abi_x86_32
+# required by x11-libs/libva-2.10.0::gentoo[video_cards_intel,video_cards_i965]
+# required by x11-libs/libva-vdpau-driver-0.7.4-r5::gentoo
+>=x11-libs/libva-intel-driver-2.4.1 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=virtual/libelf-3 abi_x86_32
+# required by virtual/libelf-3::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=dev-libs/elfutils-0.182 abi_x86_32
+# required by dev-libs/elfutils-0.182::gentoo[bzip2]
+# required by virtual/libelf-3::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=app-arch/bzip2-1.0.8-r1 abi_x86_32
+# required by dev-libs/elfutils-0.182::gentoo[lzma]
+# required by virtual/libelf-3::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[video_cards_radeonsi,gallium,video_cards_radeon,llvm,video_cards_r600,-opencl]
+# required by games-util/steam-games-meta-0-r20191109::steam-overlay
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+>=app-arch/xz-utils-5.2.5 abi_x86_32
+
+# required by media-libs/mesa-21.0.0_rc3::gentoo[gallium,lm-sensors]
+# required by x11-base/xorg-server-1.20.10::gentoo[-minimal]
+# required by x11-drivers/nvidia-drivers-460.27.04::gentoo[X]
+# required by media-libs/nv-codec-headers-10.0.26.1::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[video_cards_nvidia]
+# required by media-video/vlc-3.0.12.1-r100::gentoo[ffmpeg]
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-apps/dolphin-20.12.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-apps/lm-sensors-3.6.0 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[gallium,video_cards_radeon,llvm,video_cards_radeonsi,opencl,video_cards_r600]
+# required by x11-base/xorg-server-1.20.10::gentoo[-minimal]
+# required by x11-drivers/nvidia-drivers-460.27.04::gentoo[X]
+# required by media-libs/nv-codec-headers-10.0.26.1::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[video_cards_nvidia]
+# required by media-video/vlc-3.0.12.1-r100::gentoo[ffmpeg]
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-apps/dolphin-20.12.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/clang-11.0.1 abi_x86_32
+# required by media-libs/mesa-21.0.0_rc3::gentoo[gallium,opencl]
+# required by x11-base/xorg-server-1.20.10::gentoo[-minimal]
+# required by x11-drivers/nvidia-drivers-460.27.04::gentoo[X]
+# required by media-libs/nv-codec-headers-10.0.26.1::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[video_cards_nvidia]
+# required by media-video/vlc-3.0.12.1-r100::gentoo[ffmpeg]
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-apps/dolphin-20.12.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/opencl-3-r1 abi_x86_32
+
+# required by virtual/opencl-3-r1::gentoo
+# required by media-libs/mesa-21.0.0_rc3::gentoo[gallium,opencl]
+# required by x11-base/xorg-server-1.20.10::gentoo[-minimal]
+# required by x11-drivers/nvidia-drivers-460.27.04::gentoo[X]
+# required by media-libs/nv-codec-headers-10.0.26.1::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[video_cards_nvidia]
+# required by media-video/vlc-3.0.12.1-r100::gentoo[ffmpeg]
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-apps/dolphin-20.12.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/ocl-icd-2.2.12-r3 abi_x86_32
+
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[capi]
+# required by crossover-bin (argument)
+>=net-libs/libcapi-3.0.7-r1 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[cups]
+# required by crossover-bin (argument)
+>=net-print/cups-2.3.3-r2 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gsm]
+# required by crossover-bin (argument)
+>=media-sound/gsm-1.0.13-r1 abi_x86_32
+# required by media-gfx/sane-backends-1.0.31::gentoo[gphoto2]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=media-libs/libgphoto2-2.5.26 abi_x86_32
+# required by media-libs/gst-plugins-ugly-1.16.3::gentoo
+# required by media-plugins/gst-plugins-x264-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[x264]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/gstreamer-1.16.3 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-jpeg-1.16.3 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-meta-1.16.2 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[mp3]
+# required by crossover-bin (argument)
+>=media-sound/mpg123-1.26.4 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[nls]
+# required by crossover-bin (argument)
+>=sys-devel/gettext-0.21 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[openal]
+# required by crossover-bin (argument)
+>=media-libs/openal-1.21.1-r1 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[pcap]
+# required by crossover-bin (argument)
+>=net-libs/libpcap-1.10.0 abi_x86_32
+# required by media-libs/freetype-2.10.4::gentoo[png]
+# required by media-libs/gd-2.3.1::gentoo[truetype]
+# required by media-libs/libgphoto2-2.5.26::gentoo[cameras_st2205,cameras_ax203]
+# required by media-gfx/sane-backends-1.0.31::gentoo[gphoto2]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=media-libs/libpng-1.6.37-r2 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=media-gfx/sane-backends-1.0.31 abi_x86_32
+# required by net-print/cups-2.3.3-r2::gentoo[ssl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[cups]
+# required by crossover-bin (argument)
+>=net-libs/gnutls-3.6.15 abi_x86_32
+# required by media-plugins/gst-plugins-v4l2-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[v4l]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libv4l-1.20.0 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[vulkan]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/vulkan-loader-1.2.166 abi_x86_32
+# required by media-plugins/alsa-plugins-1.2.2::gentoo
+# required by media-sound/pulseaudio-13.0-r1::gentoo[alsa-plugin,alsa]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/alsa-lib-1.2.4 abi_x86_32
+# required by media-libs/harfbuzz-2.7.4::gentoo[truetype]
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/freetype-2.10.4 abi_x86_32
+# required by media-gfx/sane-backends-1.0.31::gentoo[sane_backends_dell1600n_net]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=media-libs/tiff-4.2.0 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo
+# required by crossover-bin (argument)
+>=sys-auth/nss-mdns-0.14.1 abi_x86_32
+# required by x11-libs/libSM-1.2.3-r1::gentoo[uuid]
+# required by media-sound/pulseaudio-13.0-r1::gentoo[X]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=sys-apps/util-linux-2.36.2 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo
+# required by crossover-bin (argument)
+>=sys-libs/libunwind-1.5.0-r1 abi_x86_32
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo
+# required by crossover-bin (argument)
+>=sys-libs/ncurses-compat-6.2 abi_x86_32
+# required by x11-libs/libSM-1.2.3-r1::gentoo
+# required by media-sound/pulseaudio-13.0-r1::gentoo[X]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libICE-1.0.10 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo[X]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libSM-1.2.3-r1 abi_x86_32
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[X]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libXcursor-1.2.0 abi_x86_32
+# required by x11-libs/libXtst-1.2.3-r2::gentoo
+# required by media-sound/pulseaudio-13.0-r1::gentoo[X]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libXi-1.7.10 abi_x86_32
+# required by sys-auth/nss-mdns-0.14.1::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo
+# required by crossover-bin (argument)
+>=net-dns/avahi-0.8-r2 abi_x86_32
+# required by net-dns/avahi-0.8-r2::gentoo
+# required by media-gfx/sane-backends-1.0.31::gentoo[zeroconf]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=dev-libs/libevent-2.1.12 abi_x86_32
+# required by media-libs/gst-plugins-base-1.16.3::gentoo
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/glib-2.66.7 abi_x86_32
+# required by net-dns/avahi-0.8-r2::gentoo[gdbm]
+# required by media-gfx/sane-backends-1.0.31::gentoo[zeroconf]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=sys-libs/gdbm-1.19 abi_x86_32
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[dbus]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=sys-apps/dbus-1.12.20-r1 abi_x86_32
+# required by sys-libs/gdbm-1.19::gentoo[readline]
+# required by media-sound/pulseaudio-13.0-r1::gentoo[gdbm]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=sys-libs/readline-8.1 abi_x86_32
+# required by dev-libs/glib-2.66.7::gentoo
+# required by media-libs/gstreamer-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/libpcre-8.44 abi_x86_32
+# required by net-misc/curl-7.75.0::gentoo[ssl,openssl]
+# required by dev-lang/rust-1.50.0::gentoo
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/openssl-1.1.1j abi_x86_32
+# required by media-libs/vulkan-loader-1.2.166::bentoo[layers]
+# required by media-video/ffmpeg-4.3.1::gentoo[vulkan]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/vulkan-layers-1.2.166 abi_x86_32
+# required by media-libs/vulkan-layers-1.2.166::bentoo
+# required by media-libs/vulkan-loader-1.2.166::bentoo[layers]
+# required by media-video/ffmpeg-4.3.1::gentoo[vulkan]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+dev-util/glslang abi_x86_32
+# required by media-libs/vulkan-layers-1.2.166::bentoo
+# required by media-libs/vulkan-loader-1.2.166::bentoo[layers]
+# required by media-video/ffmpeg-4.3.1::gentoo[vulkan]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-util/spirv-tools-2020.6 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by net-print/cups-2.3.3-r2::gentoo[ssl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[cups]
+# required by crossover-bin (argument)
+>=dev-libs/libtasn1-4.16.0 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by net-print/cups-2.3.3-r2::gentoo[ssl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[cups]
+# required by crossover-bin (argument)
+>=dev-libs/libunistring-0.9.10 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by net-print/cups-2.3.3-r2::gentoo[ssl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[cups]
+# required by crossover-bin (argument)
+>=dev-libs/nettle-3.7 abi_x86_32
+# required by dev-libs/nettle-3.7::gentoo[gmp]
+# required by net-libs/gnutls-3.6.15::gentoo
+# required by net-print/cups-2.3.3-r2::gentoo[ssl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[cups]
+# required by crossover-bin (argument)
+>=dev-libs/gmp-6.2.1 abi_x86_32
+# required by net-libs/gnutls-3.6.15::gentoo[idn]
+# required by net-print/cups-2.3.3-r2::gentoo[ssl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[cups]
+# required by crossover-bin (argument)
+>=net-dns/libidn2-2.3.0 abi_x86_32
+# required by media-gfx/sane-backends-1.0.31::gentoo[sane_backends_canon_pp,sane_backends_mustek_pp,sane_backends_hpsj5s]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=sys-libs/libieee1284-0.2.11-r8 abi_x86_32
+# required by media-gfx/sane-backends-1.0.31::gentoo[sane_backends_escl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=net-misc/curl-7.75.0 abi_x86_32
+# required by net-misc/curl-7.75.0::gentoo[nss,ssl]
+# required by dev-lang/rust-1.50.0::gentoo
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/nss-3.61 abi_x86_32
+# required by net-misc/curl-7.75.0::gentoo[http2]
+# required by dev-lang/rust-1.50.0::gentoo
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=net-libs/nghttp2-1.43.0 abi_x86_32
+# required by dev-libs/nss-3.61::gentoo
+# required by net-misc/curl-7.75.0::gentoo[nss,ssl]
+# required by dev-lang/rust-1.50.0::gentoo
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/nspr-4.29 abi_x86_32
+# required by dev-libs/nss-3.61::gentoo
+# required by net-misc/curl-7.75.0::gentoo[nss,ssl]
+# required by dev-lang/rust-1.50.0::gentoo
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-db/sqlite-3.34.0 abi_x86_32
+# required by dev-db/sqlite-3.34.0::gentoo[icu]
+# required by dev-libs/nss-3.61::gentoo
+# required by net-misc/curl-7.75.0::gentoo[nss,ssl]
+# required by dev-lang/rust-1.50.0::gentoo
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/icu-68.2 abi_x86_32
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[pulseaudio]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-sound/pulseaudio-13.0-r1 abi_x86_32
+# required by media-libs/openal-1.21.1-r1::gentoo[sdl]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[openal]
+# required by crossover-bin (argument)
+>=media-libs/libsdl2-2.0.14-r1 abi_x86_32
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[wayland]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libxkbcommon-1.0.3 abi_x86_32
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[xinerama,X]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libXinerama-1.1.4-r1 abi_x86_32
+# required by media-libs/libgphoto2-2.5.26::gentoo
+# required by media-gfx/sane-backends-1.0.31::gentoo[gphoto2]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=dev-libs/libxml2-2.9.10-r4 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libsndfile-1.0.31 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo[X]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libXtst-1.2.3-r2 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo[caps]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=sys-libs/libcap-2.48 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo[tcpd]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=sys-apps/tcp-wrappers-7.6.28 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo[asyncns]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo[alsa-plugin,alsa]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/alsa-plugins-1.2.2 abi_x86_32
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-video/ffmpeg-4.3.1 abi_x86_32
+# required by media-plugins/alsa-plugins-1.2.2::gentoo[libsamplerate]
+# required by media-sound/pulseaudio-13.0-r1::gentoo[alsa-plugin,alsa]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libsamplerate-0.2.1 abi_x86_32
+# required by media-plugins/alsa-plugins-1.2.2::gentoo[speex]
+# required by media-sound/pulseaudio-13.0-r1::gentoo[alsa-plugin,alsa]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/speex-1.2.0-r2 abi_x86_32
+# required by media-plugins/alsa-plugins-1.2.2::gentoo[speex]
+# required by media-sound/pulseaudio-13.0-r1::gentoo[alsa-plugin,alsa]
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/speexdsp-1.2_rc3-r3 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[dav1d]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/dav1d-0.8.1 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[mp3,encode]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-sound/lame-3.100-r3 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[openh264,encode]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/openh264-2.1.1 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[theora,encode]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libtheora-1.1.1-r2 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[vorbis,encode,theora]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libogg-1.3.4 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[webp,encode]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libwebp-1.2.0 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[x264,encode]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/x264-0.0.20190903-r1 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[x265,encode]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/x265-3.4 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[modplug]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libmodplug-0.8.9.0-r1 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[opus]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/opus-1.3.1-r1 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=gnome-base/librsvg-2.50.3 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[video_cards_nvidia]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/nv-codec-headers-10.0.26.1 abi_x86_32
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[vorbis]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libvorbis-1.3.7 abi_x86_32
+# required by media-video/ffmpeg-4.3.1::gentoo[vpx]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/libvpx-1.9.0 abi_x86_32
+# required by media-libs/nv-codec-headers-10.0.26.1::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[video_cards_nvidia]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-drivers/nvidia-drivers-460.39-r1 abi_x86_32
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/cairo-1.16.0-r4 abi_x86_32
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/gdk-pixbuf-2.42.2 abi_x86_32
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/harfbuzz-2.7.4 abi_x86_32
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/pango-1.42.4-r2 abi_x86_32
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/fontconfig-2.13.1-r2 abi_x86_32
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/fribidi-1.0.9 abi_x86_32
+# required by x11-libs/pango-1.42.4-r2::gentoo[X]
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/libXft-2.3.3 abi_x86_32
+# required by media-libs/harfbuzz-2.7.4::gentoo[graphite]
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=media-gfx/graphite2-1.3.14 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r4::gentoo
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/lzo-2.10 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r4::gentoo
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=sys-libs/binutils-libs-2.35.2 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r4::gentoo
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=x11-libs/pixman-0.40.0 abi_x86_32
+# required by sys-libs/libcap-2.48::gentoo
+# required by media-libs/gstreamer-1.16.3::gentoo[caps]
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=sys-apps/attr-2.4.48-r5 abi_x86_32
+# required by sys-libs/libcap-2.48::gentoo[pam]
+# required by media-libs/gstreamer-1.16.3::gentoo[caps]
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=sys-libs/pam-1.5.1 abi_x86_32
+# required by sys-libs/pam-1.5.1::gentoo[berkdb]
+# required by sys-apps/util-linux-2.36.2::gentoo[pam]
+# required by sys-fs/eudev-3.2.10::gentoo
+# required by virtual/libudev-232-r3::gentoo[-systemd]
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[udev]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=sys-libs/db-6.0.35-r3 abi_x86_32
+# required by media-libs/libsndfile-1.0.31::gentoo[-minimal]
+# required by media-sound/jack2-1.9.17::gentoo
+# required by virtual/jack-1::gentoo
+# required by media-libs/openal-1.21.1-r1::gentoo[jack]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[openal]
+# required by crossover-bin (argument)
+>=media-libs/flac-1.3.3-r1 abi_x86_32
+# required by media-plugins/gst-plugins-pulse-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/gst-plugins-base-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-jack-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[jack]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/gst-plugins-good-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-libav-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[jack]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-jack-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[pulseaudio]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-pulse-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[v4l]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-v4l2-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[vaapi]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-vaapi-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[x264]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-plugins/gst-plugins-x264-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[x264]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/gst-plugins-ugly-1.16.3 abi_x86_32
+# required by media-plugins/gst-plugins-vaapi-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[vaapi]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/gst-plugins-bad-1.16.3 abi_x86_32
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[orc]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=dev-lang/orc-0.4.31 abi_x86_32
+# required by media-plugins/gst-plugins-v4l2-1.16.3::gentoo[udev]
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[v4l]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-libs/libgudev-234 abi_x86_32
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[gles2,opengl]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=media-libs/graphene-1.10.2-r1 abi_x86_32
+# required by media-libs/libgphoto2-2.5.26::gentoo
+# required by media-gfx/sane-backends-1.0.31::gentoo[gphoto2]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=dev-libs/libltdl-2.4.6 abi_x86_32
+# required by media-libs/libgphoto2-2.5.26::gentoo[cameras_st2205,cameras_ax203]
+# required by media-gfx/sane-backends-1.0.31::gentoo[gphoto2]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=media-libs/gd-2.3.1 abi_x86_32
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[gles2,opengl]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=virtual/jpeg-100 abi_x86_32
+# required by virtual/jpeg-100::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg]
+# required by crossover-bin (argument)
+>=media-libs/libjpeg-turbo-2.0.6 abi_x86_32
+# required by net-libs/libpcap-1.10.0::gentoo[usb]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[pcap]
+# required by crossover-bin (argument)
+>=virtual/libusb-1-r2 abi_x86_32
+# required by virtual/libusb-1-r2::gentoo
+# required by media-gfx/sane-backends-1.0.31::gentoo[usb]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=dev-libs/libusb-1.0.24-r1 abi_x86_32
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[udev]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=virtual/libudev-232-r3 abi_x86_32
+# required by virtual/libudev-232-r3::gentoo[-systemd]
+# required by sys-apps/util-linux-2.36.2::gentoo
+# required by media-libs/fontconfig-2.13.1-r2::gentoo
+# required by x11-libs/cairo-1.16.0-r4::gentoo
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by media-libs/gst-plugins-base-1.16.3::gentoo[pango]
+# required by media-libs/gst-plugins-good-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=sys-fs/eudev-3.2.10 abi_x86_32
+# required by media-plugins/gst-plugins-jack-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[jack]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=virtual/jack-1 abi_x86_32
+# required by virtual/jack-1::gentoo
+# required by media-libs/openal-1.21.1-r1::gentoo[jack]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[openal]
+# required by crossover-bin (argument)
+>=media-sound/jack2-1.9.17 abi_x86_32
+# required by sys-devel/gettext-0.21::gentoo
+# required by media-libs/libgphoto2-2.5.26::gentoo
+# required by media-gfx/sane-backends-1.0.31::gentoo[gphoto2]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[scanner]
+# required by crossover-bin (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by dev-libs/glib-2.66.7::gentoo
+# required by media-libs/gstreamer-1.16.3::gentoo
+# required by media-plugins/gst-plugins-jpeg-1.16.3::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[jpeg,gstreamer]
+# required by crossover-bin (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by sys-libs/pam-1.5.1::gentoo
+# required by sys-apps/util-linux-2.36.2::gentoo[pam]
+# required by sys-fs/eudev-3.2.10::gentoo
+# required by virtual/libudev-232-r3::gentoo[-systemd]
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[udev]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=virtual/libcrypt-1-r1 abi_x86_32
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=virtual/rust-1.50.0 abi_x86_32
+# required by virtual/rust-1.50.0::gentoo
+# required by gnome-base/librsvg-2.50.3::gentoo
+# required by media-video/ffmpeg-4.3.1::gentoo[svg]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=dev-lang/rust-1.50.0 abi_x86_32
+# required by media-libs/libsdl2-2.0.14-r1::gentoo[opengl]
+# required by media-video/ffmpeg-4.3.1::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.16.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[ffmpeg]
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[gstreamer]
+# required by crossover-bin (argument)
+>=virtual/glu-9.0-r2 abi_x86_32
+# required by virtual/glu-9.0-r2::gentoo
+# required by app-emulation/crossover-bin-20.0.2-r1::gentoo[opengl]
+# required by crossover-bin (argument)
+>=media-libs/glu-9.0.1 abi_x86_32
+
+# required by app-emulation/wine-staging-6.2::gentoo[faudio]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-emulation/faudio-21.01 abi_x86_32
+# required by dev-libs/libxslt-1.1.34-r1::gentoo[crypt]
+# required by app-emulation/wine-staging-6.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgcrypt-1.9.2 abi_x86_32
+# required by app-emulation/wine-staging-6.2::gentoo[lcms]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/lcms-2.12 abi_x86_32
+# required by app-emulation/wine-staging-6.2::gentoo[vkd3d]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-emulation/vkd3d-1.2 abi_x86_32
+# required by app-emulation/wine-staging-6.2::gentoo[xcomposite]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libXcomposite-0.4.5 abi_x86_32
+# required by app-emulation/wine-staging-6.2::gentoo[xml]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libxslt-1.1.34-r1 abi_x86_32
+# required by app-emulation/wine-staging-6.2::gentoo[gecko]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-emulation/wine-gecko-2.47.2 abi_x86_32
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+>=x11-libs/xcb-util-0.4.0-r2 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+>=x11-libs/xcb-util-keysyms-0.4.0-r2 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+>=x11-libs/xcb-util-wm-0.4.1-r3 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by kde-plasma/plasma-workspace-5.21.0::gentoo[fontconfig]
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.9::gentoo
+# required by app-editors/vscode-bin-1.53.1::bentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-cursor-0.1.3-r3 abi_x86_32
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by app-emulation/vkd3d-1.2::gentoo
+# required by app-emulation/wine-staging-6.2::gentoo[vkd3d]
+# required by virtual/wine-0-r7::gentoo
+# required by app-emulation/winetricks-20201206::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-image-0.4.0-r2 abi_x86_32
+# required by x11-libs/xcb-util-cursor-0.1.3-r3::gentoo
+# required by x11-libs/xcb-util-0.4.0-r2::gentoo
+# required by x11-libs/xcb-util-image-0.4.0-r2::gentoo
+# required by kde-plasma/plasma-workspace-5.21.0::gentoo[fontconfig]
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.9::gentoo
+# required by app-editors/vscode-bin-1.53.1::bentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-renderutil-0.3.9-r3 abi_x86_32
+
+>=dev-libs/libgpg-error-1.41 abi_x86_32
+
+
+app-emulation/dxvk abi_x86_32
+
+dev-util/vulkan-tools abi_x86_32
+
+net-nds/openldap abi_x86_32
+media-plugins/gst-plugins-mpg123 abi_x86_32
+media-plugins/gst-plugins-flac abi_x86_32
+media-plugins/gst-plugins-vpx abi_x86_32
+
+# required by media-gfx/blender-2.93.0::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-4.4 xvid jpeg2k
+# required by media-video/ffmpeg-4.4::gentoo[xvid,encode]
+# required by media-gfx/blender-2.93.0::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-libs/xvid-1.3.7 abi_x86_32
+# required by media-video/ffmpeg-4.4::gentoo[jpeg2k]
+# required by media-gfx/blender-2.93.0::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-libs/openjpeg-2.4.0 abi_x86_32
+
+# required by media-video/ffmpeg-4.4::gentoo[srt]
+# required by ffmpeg (argument)
+>=net-libs/srt-1.4.2 abi_x86_32
+
+# required by media-video/ffmpeg-4.4-r1::gentoo[libaom]
+# required by ffmpeg (argument)
+>=media-libs/libaom-3.1.1 abi_x86_32
+
+# required by virtual/libcrypt-2::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=sys-libs/libxcrypt-4.4.23-r1 abi_x86_32
+
+# required by media-video/ffmpeg-4.4-r1::gentoo[fdk]
+# required by media-video/handbrake-1.3.3-r1::gentoo
+# required by handbrake (argument)
+>=media-libs/fdk-aac-2.0.2 abi_x86_32
+
+# required by media-libs/vulkan-layers-1.2.198-r1::gentoo
+# required by media-libs/vulkan-loader-1.2.203::bentoo[layers]
+# required by media-video/ffmpeg-4.4.1-r1::gentoo[vulkan]
+# required by www-client/firefox-95.0.2::bentoo
+# required by www-client/firefox (argument)
+=dev-util/spirv-tools-1.2.198 abi_x86_32
+
+
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-misc/compose-tables-1.8::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXext-1.3.4::gentoo
+# required by media-libs/imlib2-1.9.0::gentoo[X]
+# required by www-client/w3m-0.5.3_p20220429::gentoo[imlib,-gdk-pixbuf]
+# required by virtual/w3m-1::gentoo
+# required by app-text/xmlto-0.0.28-r8::gentoo
+# required by x11-misc/shared-mime-info-2.2::gentoo
+# required by dev-libs/glib-2.72.1::gentoo[mime]
+# required by x11-libs/cairo-1.16.0-r5::gentoo[glib]
+# required by media-libs/harfbuzz-4.2.1::gentoo[cairo]
+# required by media-libs/freetype-2.12.1::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+>=dev-libs/libbsd-0.11.6 abi_x86_32
+# required by dev-libs/libbsd-0.11.6::gentoo
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15::gentoo
+# required by x11-misc/compose-tables-1.8::gentoo
+# required by x11-libs/libX11-1.7.5::gentoo
+# required by x11-libs/libXext-1.3.4::gentoo
+# required by media-libs/imlib2-1.9.0::gentoo[X]
+# required by www-client/w3m-0.5.3_p20220429::gentoo[imlib,-gdk-pixbuf]
+# required by virtual/w3m-1::gentoo
+# required by app-text/xmlto-0.0.28-r8::gentoo
+# required by x11-misc/shared-mime-info-2.2::gentoo
+# required by dev-libs/glib-2.72.1::gentoo[mime]
+# required by x11-libs/cairo-1.16.0-r5::gentoo[glib]
+# required by media-libs/harfbuzz-4.2.1::gentoo[cairo]
+# required by media-libs/freetype-2.12.1::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.14.0-r1::gentoo
+>=app-crypt/libmd-1.0.4 abi_x86_32
+
+# required by virtual/rust-1.60.0::gentoo
+# required by gnome-base/librsvg-2.54.3::gentoo
+# required by x11-themes/adwaita-icon-theme-42.0::gentoo
+# required by x11-libs/gtk+-3.24.33-r1::gentoo
+# required by app-crypt/gcr-3.41.0::gentoo[gtk]
+# required by gnome-base/gnome-keyring-40.0-r1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-crypt/pinentry-1.2.0::gentoo[gnome-keyring]
+# required by app-crypt/gnupg-2.3.6::gentoo
+# required by app-crypt/gpgme-1.17.1::gentoo
+# required by app-portage/portage-utils-0.93.3::gentoo[qmanifest,-static]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by sys-devel/clang-14.0.3::gentoo[static-analyzer]
+# required by dev-libs/libclc-14.0.3::gentoo
+# required by media-libs/mesa-22.1.0_rc5::gentoo[opencl]
+# required by media-libs/libepoxy-1.5.10::gentoo[egl]
+>=dev-lang/rust-bin-1.60.0 abi_x86_32
+
+
+# required by media-sound/pulseaudio-15.99.1-r1::gentoo
+# required by media-sound/mpg123-1.29.3::gentoo[pulseaudio]
+# required by media-libs/libsndfile-1.1.0-r1::gentoo[-minimal]
+# required by media-sound/jack2-1.9.19::gentoo
+# required by virtual/jack-2::gentoo
+# required by media-sound/pulseaudio-daemon-15.99.1-r2::gentoo
+>=media-libs/libpulse-15.99.1-r1 abi_x86_32
+# required by media-libs/vulkan-layers-1.3.211::gentoo
+# required by media-libs/vulkan-loader-1.3.211::gentoo[layers]
+# required by media-libs/libsdl2-2.0.20-r1::gentoo[vulkan]
+# required by media-sound/mpg123-1.29.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.1.0-r1::gentoo[-minimal]
+# required by media-sound/jack2-1.9.19::gentoo
+# required by virtual/jack-2::gentoo
+# required by media-sound/pulseaudio-daemon-15.99.1-r2::gentoo
+# required by media-sound/pulseaudio-15.99.1-r1::gentoo[daemon]
+# required by media-video/ffmpeg-4.4.2::gentoo[pulseaudio]
+# required by media-plugins/alsa-plugins-1.2.6::gentoo[ffmpeg]
+>=dev-util/spirv-tools-1.3.211-r1 abi_x86_32
+
+# required by virtual/libudev-232-r7::gentoo
+# required by libudev (argument)
+>=sys-apps/systemd-utils-250.5 abi_x86_32
+
+# required by media-sound/jack2-1.9.20::bentoo[ieee1394]
+# required by media-video/pipewire-0.3.51-r1::gentoo[jack-client]
+# required by kde-plasma/kwin-5.24.5-r2::gentoo[screencast]
+# required by kde-plasma/plasma-workspace-5.24.5-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libffado-2.4.5 abi_x86_32
+# required by media-libs/libffado-2.4.5::gentoo
+# required by media-sound/jack2-1.9.20::bentoo[ieee1394]
+# required by media-video/pipewire-0.3.51-r1::gentoo[jack-client]
+# required by kde-plasma/kwin-5.24.5-r2::gentoo[screencast]
+# required by kde-plasma/plasma-workspace-5.24.5-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-cpp/libxmlpp-2.40.1-r2:2.6 abi_x86_32
+# required by media-libs/libffado-2.4.5::gentoo
+# required by media-sound/jack2-1.9.20::bentoo[ieee1394]
+# required by media-video/pipewire-0.3.51-r1::gentoo[jack-client]
+# required by kde-plasma/kwin-5.24.5-r2::gentoo[screencast]
+# required by kde-plasma/plasma-workspace-5.24.5-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libconfig-1.7.3 abi_x86_32
+# required by media-libs/libffado-2.4.5::gentoo
+# required by media-sound/jack2-1.9.20::bentoo[ieee1394]
+# required by media-video/pipewire-0.3.51-r1::gentoo[jack-client]
+# required by kde-plasma/kwin-5.24.5-r2::gentoo[screencast]
+# required by kde-plasma/plasma-workspace-5.24.5-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libiec61883-1.2.0-r2 abi_x86_32
+# required by media-libs/libffado-2.4.5::gentoo
+# required by media-sound/jack2-1.9.20::bentoo[ieee1394]
+# required by media-video/pipewire-0.3.51-r1::gentoo[jack-client]
+# required by kde-plasma/kwin-5.24.5-r2::gentoo[screencast]
+# required by kde-plasma/plasma-workspace-5.24.5-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libavc1394-0.5.4-r2 abi_x86_32
+# required by sys-libs/libavc1394-0.5.4-r2::gentoo
+# required by media-libs/libffado-2.4.5::gentoo
+# required by media-sound/jack2-1.9.20::bentoo[ieee1394]
+# required by media-video/pipewire-0.3.51-r1::gentoo[jack-client]
+# required by kde-plasma/kwin-5.24.5-r2::gentoo[screencast]
+# required by kde-plasma/plasma-workspace-5.24.5-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libraw1394-2.1.2-r1 abi_x86_32
+# required by dev-cpp/libxmlpp-2.40.1-r2::gentoo
+# required by media-libs/libffado-2.4.5::gentoo
+# required by media-sound/jack2-1.9.20::bentoo[ieee1394]
+# required by media-video/pipewire-0.3.51-r1::gentoo[jack-client]
+# required by kde-plasma/kwin-5.24.5-r2::gentoo[screencast]
+# required by kde-plasma/plasma-workspace-5.24.5-r1::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-cpp/glibmm-2.66.4:2 abi_x86_32
+# required by dev-cpp/glibmm-2.66.4::gentoo
+# required by media-gfx/inkscape-1.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libsigc++-2.10.7:2 abi_x86_32
+
+
+# required by media-video/ffmpeg-4.4.2::gentoo[libass]
+# required by media-libs/opencv-4.6.0-r2::gentoo[ffmpeg]
+# required by media-plugins/frei0r-plugins-1.7.0-r2::gentoo[facedetect]
+# required by media-libs/mlt-7.8.0::gentoo[frei0r]
+# required by kde-apps/kdenlive-22.08.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libass-0.16.0 abi_x86_32
+
+# required by app-emulation/dxvk-1.10.3::gentoo[-crossdev-mingw]
+# required by dxvk (argument)
+>=dev-util/mingw64-toolchain-10.0.0_p1 abi_x86_32
+
+# required by dev-libs/glib-2.74.0::gentoo
+# required by app-crypt/gcr-3.41.1::gentoo
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-crypt/pinentry-1.2.1::gentoo[gnome-keyring]
+# required by app-crypt/gnupg-2.3.7-r1::gentoo
+# required by dev-vcs/git-2.37.3::gentoo[gpg]
+# required by dev-ruby/bundler-2.3.8-r1::gentoo
+# required by dev-lang/ruby-3.1.2-r1::gentoo
+# required by net-libs/webkit-gtk-2.36.8::gentoo
+# required by games-util/lutris-0.5.11::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre2-10.40 abi_x86_32

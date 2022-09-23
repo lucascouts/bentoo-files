@@ -1,0 +1,487 @@
+# necessary to load the xterm, xclock...
+x11-apps/xinit twm
+
+# improviment.
+media-libs/mesa d3d9 lm-sensors opencl
+
+#
+app-office/libreoffice -bluetooth -branding -eds -gtk -mariadb accessibility clang googledrive kde
+
+#
+dev-python/PyQt5 declarative gui network widgets
+
+#
+app-arch/p7zip
+
+#
+x11-base/xorg-server xvfb
+
+#
+kde-misc/kdeconnect bluetooth
+
+#
+kde-apps/spectacle kipi share
+
+#
+kde-apps/dolphin activities semantic-desktop
+
+#
+kde-apps/ark zip
+
+#
+net-libs/nodejs inspector system-icu
+
+#
+app-eselect/eselect-php fpm
+dev-lang/php argon2 cgi curl exif fpm ftp gd inifile intl mysql mysqli pcntl pdo soap sockets sodium spell tidy webp xmlreader xmlrpc xmlwriter xslt zip
+
+#
+media-plugins/alsa-plugins libsamplerate speex
+
+#
+x11-drivers/nvidia-drivers gtk3 uvm
+
+#
+media-libs/mlt fftw libsamplerate opencv
+
+#
+media-video/vlc libass live lua_single_target_lua5-1 matroska mp3 mtp opus v4l vpx x264 x265
+
+#
+dev-lang/rust system-llvm
+
+#
+www-client/firefox hwaccel libproxy
+www-client/librewolf libproxy system-python-libs
+mail-client/thunderbird hwaccel
+
+
+#
+sys-apps/flatpak kde policykit
+
+#
+media-sound/pulseaudio libsamplerate realtime -daemon
+
+#
+net-misc/networkmanager bluetooth connection-sharing nftables policykit resolvconf
+
+#
+kde-plasma/plasma-meta bluetooth
+
+#
+kde-apps/kdenlive semantic-desktop share v4l
+
+
+#
+sys-kernel/gentoo-sources experimental symlink
+sys-kernel/bentoo-sources experimental symlink
+
+#
+sys-firmware/intel-microcode initramfs
+
+#
+media-libs/vulkan-loader layers
+
+#
+media-video/ffmpeg chromium cuda libass libaom libdrm modplug mp3 opencl openh264 opus speex srt svg theora truetype v4l vpx vorbis webp
+
+# remove gtk version.
+net-p2p/transmission -gtk
+
+#
+media-video/obs-studio fdk lua_single_target_luajit pipewire speex v4l vlc
+
+#
+sys-devel/clang-runtime libcxx
+sys-devel/llvm
+
+#
+media-libs/freetype harfbuzz
+
+#
+media-gfx/inkscape cdr exif imagemagick jpeg lcms spell svg2
+
+#
+sys-apps/fwupd agent bluetooth dell fastboot flashrom gnutls gusb modemmanager nvme policykit spi synaptics thunderbolt tpm uefi
+
+
+
+
+
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=dev-qt/qtwebengine-5.15.2 widgets
+# required by x11-misc/xdg-utils-1.1.3_p20200220-r1::gentoo
+# required by kde-frameworks/kf-env-5::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=app-text/xmlto-0.0.28-r3 text
+# required by sys-boot/os-prober-1.77::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+sys-boot/grub efiemu mount truetype
+
+
+sys-libs/libseccomp static-libs
+
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by x11-base/xorg-drivers-1.20-r2::gentoo[video_cards_vmware]
+# required by x11-base/xorg-server-1.20.10::gentoo[xorg]
+# required by x11-base/xorg-x11-7.4-r3::gentoo
+# required by x11-base/xorg-x11 (argument)
+>=x11-libs/libdrm-2.4.104 libkms
+# required by kde-frameworks/kcoreaddons-5.78.0::gentoo
+# required by kde-frameworks/kcrash-5.78.0::gentoo
+# required by kde-frameworks/kinit-5.78.0::gentoo
+# required by kde-frameworks/kded-5.78.0::gentoo
+# required by kde-frameworks/kio-5.78.0::gentoo
+# required by kde-frameworks/kparts-5.78.0::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=dev-qt/qtcore-5.15.2-r2 icu
+# required by dev-qt/qtwebengine-5.15.2::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=dev-qt/qtwebchannel-5.15.2 qml
+# required by dev-qt/qtwebengine-5.15.2::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=dev-libs/libxml2-2.9.10-r4 icu
+# required by dev-qt/qtwebengine-5.15.2::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=media-libs/libvpx-1.9.0 svc
+# required by dev-qt/qtwebengine-5.15.2::gentoo
+# required by app-admin/calamares-3.2.32.1::gentoo
+# required by app-admin/calamares (argument)
+>=sys-libs/zlib-1.2.11-r3 minizip
+
+
+media-gfx/imagemagick fftw fontconfig jbig jpeg jpeg2k lcms opencl openexr pango svg tiff webp truetype xml -openmp
+
+# required by app-misc/neofetch-7.1.0::gentoo[X]
+# required by @selected
+# required by @world (argument)
+>=www-client/w3m-0.5.3_p20190105 imlib
+# required by sys-apps/flatpak-1.10.0::gentoo
+# required by sys-apps/flatpak (argument)
+>=dev-util/ostree-2020.8 curl
+
+
+# required by sys-apps/fwupd-1.5.5::gentoo
+# required by sys-apps/fwupd (argument)
+>=dev-libs/libjcat-0.1.5 gpg pkcs7
+
+# required by net-print/cups-filters-1.28.7::gentoo[postscript]
+# required by net-print/cups-2.3.3-r2::gentoo
+# required by www-client/brave-bin-1.18.78::bentoo
+# required by brave-bin (argument)
+>=app-text/ghostscript-gpl-9.53.3-r4 cups
+
+
+# necessary to packages as 'app-crypt/pesign'
+dev-libs/nss utils
+
+# required by kde-plasma/xdg-desktop-portal-kde-5.20.5::gentoo
+# required by kde-plasma/plasma-meta-5.20.5::gentoo[desktop-portal]
+# required by plasma-meta (argument)
+>=dev-qt/qtprintsupport-5.15.2 cups
+# required by kde-plasma/plasma-workspace-5.20.5-r3::gentoo
+# required by kde-plasma/kdeplasma-addons-5.20.5::gentoo
+# required by kde-plasma/plasma-meta-5.20.5::gentoo
+# required by plasma-meta (argument)
+>=dev-qt/qtgui-5.15.2-r1 jpeg
+# required by kde-plasma/plasma-workspace-5.20.5-r3::gentoo
+# required by kde-plasma/kdeplasma-addons-5.20.5::gentoo
+# required by kde-plasma/plasma-meta-5.20.5::gentoo
+# required by plasma-meta (argument)
+>=kde-frameworks/prison-5.78.0 qml
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-plasma/plasma-desktop-5.20.5::gentoo
+# required by kde-plasma/plasma-meta-5.20.5::gentoo
+# required by plasma-meta (argument)
+>=media-video/vlc-3.0.12.1-r100 ogg vorbis
+# required by kde-plasma/kwin-5.20.5-r1::gentoo
+# required by kde-plasma/plasma-desktop-5.20.5::gentoo
+# required by kde-plasma/plasma-meta-5.20.5::gentoo
+# required by plasma-meta (argument)
+>=kde-frameworks/kitemmodels-5.78.0 qml
+
+# required by kde-misc/kdeconnect-20.12.1::gentoo
+# required by kde-misc/kdeconnect (argument)
+>=dev-qt/qtmultimedia-5.15.2 qml
+# required by kde-apps/kdenlive-20.12.1::gentoo
+# required by kde-apps/kdenlive (argument)
+>=media-libs/mlt-6.24.0-r1 xml frei0r
+# required by kde-apps/kamoso-20.12.1::gentoo
+# required by kde-apps/kamoso (argument)
+media-plugins/gst-plugins-meta ogg v4l vorbis theora
+
+kde-plasma/kde-cli-tools kdesu
+
+# deps of kamoso
+media-libs/gst-plugins-base theora
+
+media-gfx/krita fftw openexr tiff
+
+# required by sys-apps/bleachbit
+dev-lang/python sqlite
+
+dev-db/redis lua_single_target_luajit
+
+# required by app-emulation/libvirt-7.0.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-3.0.0::gentoo
+# required by app-emulation/virt-manager-3.2.0::gentoo
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.84-r101 script
+
+
+# required by x11-misc/lightdm-webkit2-greeter-2.2.5::bentoo
+# required by x11-misc/lightdm-webkit2-greeter (argument)
+>=x11-misc/lightdm-1.30.0-r2 gtk non_root
+# required by gnome-base/gnome-keyring-3.36.0::gentoo
+# required by app-crypt/libsecret-0.20.4::gentoo
+# required by net-im/teams-1.3.00.30857-r1::gentoo
+# required by net-im/teams (argument)
+>=app-crypt/pinentry-1.1.1 gnome-keyring
+# required by dev-php/composer-1.10.15::gentoo
+# required by dev-php/composer (argument)
+>=dev-lang/php-8.0.1-r1 curl
+
+# improvement.
+app-emulation/vmware-workstation vmware-tools-linux vmware-tools-windows
+app-emulation/open-vm-tools gtkmm
+
+# required by net-im/zoom-bin
+app-i18n/ibus gtk
+
+# move app-emulation/docker app-containers/docker
+app-containers/docker overlay
+
+kde-apps/gwenview activities kipi share
+
+media-video/simplescreenrecorder mp3 theora v4l vorbis vpx x264
+
+net-dns/dnscrypt-proxy pie
+
+sys-kernel/linux-firmware initramfs
+
+www-servers/nginx lua_single_target_luajit pcre-jit rtmp nginx_modules_http_headers_more nginx_modules_http_image_filter
+
+app-editors/vim lua_single_target_luajit
+
+dev-libs/libixion -python_single_target_python3_8
+
+kde-apps/kio-extras activities mtp phonon taglib
+
+dev-vcs/git python_single_target_python3_8
+
+
+# required by www-client/firefox-85.0.1::gentoo
+# required by firefox (argument)
+>=media-libs/libpng-1.6.37-r2 apng
+# required by mail-client/thunderbird-78.7.1::gentoo[system-libvpx]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvpx-1.9.0 postproc
+
+www-client/chromium official
+
+media-libs/libsdl2 haptic
+
+sys-apps/file -python
+
+
+dev-qt/qtquickcontrols2 widgets
+dev-qt/qtgui evdev
+
+net-firewall/nftables json xtables
+
+media-video/pipewire bluetooth extra gstreamer jack-client sndfile
+
+
+# required by kde-apps/akonadi{-calendar},korganizer
+dev-qt/qtsql mysql
+
+app-admin/pass zsh-completion
+
+mail-mta/protonmail-bridge gui
+
+media-libs/opencolorio -opengl
+
+x11-libs/libva utils
+
+sys-boot/plymouth gtk
+net-misc/remmina kwallet rdp spice ssh vnc -zeroconf
+kde-plasma/kwin plasma
+
+media-gfx/graphicsmagick jbig jpeg lcms png svg tiff webp
+
+app-crypt/gcr gtk
+
+# required by dev-db/mysql-workbench
+>=net-libs/libssh-0.9.5 server
+
+#
+net-p2p/go-ethereum devtools
+
+# required by dev-libs/libappindicator-12.10.0-r301::gentoo
+# required by net-im/rocketchat-desktop-bin-3.2.2::gentoo
+# required by net-im/rocketchat-desktop-bin (argument)
+dev-libs/libdbusmenu gtk3
+media-fonts/noto-emoji buildfont
+
+
+# required by media-gfx/blender-2.93.0::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-4.4 xvid jpeg2k
+
+net-misc/megasync dolphin
+
+dev-db/mariadb galera innodb-lz4 innodb-lzo xml
+
+net-vpn/mullvad-vpn gui
+
+media-libs/freeimage jpeg jpeg2k png webp
+
+# required by media-video/handbrake-1.3.3-r1::gentoo
+# required by handbrake (argument)
+>=media-video/ffmpeg-4.4-r1 fdk
+
+sys-apps/busybox mdev
+
+# required by kde-frameworks/qqc2-desktop-style-5.90.0::gentoo
+# required by kde-plasma/plasma-desktop-5.23.5::gentoo
+# required by kde-plasma/plasma-meta-5.23.5::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=kde-frameworks/sonnet-5.90.0 qml
+
+
+# required by media-libs/mlt-7.4.0::gentoo[opencv]
+# required by kde-apps/kdenlive-21.12.1::gentoo
+# required by kde-apps/kdenlive (argument)
+>=media-libs/opencv-4.5.5 contrib contribdnn
+
+
+app-emulation/vkd3d spirv-tools
+
+# required by media-sound/elisa-21.12.1::gentoo
+# required by media-sound/elisa (argument)
+>=kde-frameworks/kfilemetadata-5.90.0 taglib
+# required by media-video/obs-studio-27.1.3-r1::gentoo
+# required by media-video/obs-studio (argument)
+>=media-video/ffmpeg-4.4.1-r1 x264
+
+
+# required by net-libs/webkit-gtk-2.34.3::gentoo
+# required by games-util/lutris-0.5.9.1::gentoo
+# required by games-util/lutris (argument)
+>=media-libs/harfbuzz-3.2.0 icu
+
+media-video/handbrake gtk libav-aac x265
+
+dev-db/mongodb mongosh
+
+# required by app-admin/mongosh-bin-1.1.7::gentoo
+# required by dev-db/mongodb-5.2.0::bentoo[mongosh]
+# required by dev-db/mongodb (argument)
+>=dev-libs/cyrus-sasl-2.1.27-r6 kerberos# required by www-client/chromium-96.0.4664.110::gentoo[system-png]
+# required by chromium (argument)
+>=media-libs/libpng-1.6.37-r2 -apng
+
+
+
+net-p2p/webtorrent-desktop-bin pulseaudio
+
+
+# required by dev-python/cairocffi-1.3.0::python-modules-kit
+# required by dev-python/matplotlib-3.5.1::python-modules-kit[cairo]
+# required by dev-python/matplotlib-inline-0.1.3-r1::gentoo
+# required by dev-python/ipython-8.1.0::gentoo
+# required by dev-python/qtconsole-5.2.2::gentoo
+>=x11-libs/gdk-pixbuf-2.42.6-r1 jpeg
+# required by dev-python/qtconsole-5.2.2::gentoo
+# required by dev-python/ipython-8.1.0::gentoo[qt5]
+# required by dev-python/ipyparallel-8.2.0::gentoo[-test]
+>=dev-python/QtPy-2.0.1 gui printsupport svg
+# required by dev-python/QtPy-2.0.1::gentoo[pyqt5]
+# required by dev-python/qtconsole-5.2.2::gentoo
+# required by dev-python/ipython-8.1.0::gentoo[qt5]
+# required by dev-python/ipyparallel-8.2.0::gentoo[-test]
+>=dev-python/PyQt5-5.15.6 printsupport svg
+# required by dev-python/pyzmq-22.3.0::python-modules-kit
+# required by dev-python/jupyter_client-7.1.2::gentoo
+# required by dev-python/nbclient-0.5.11::gentoo
+# required by dev-python/nbconvert-6.4.2::gentoo
+# required by dev-python/jupyter_server-1.13.5::gentoo
+# required by dev-python/ipyparallel-8.2.0::gentoo[-test]
+# required by dev-python/ipython-8.1.0::gentoo[smp]
+# required by dev-python/qtconsole-5.2.2::gentoo
+>=net-libs/zeromq-4.3.4-r1 drafts
+
+
+# required by dev-python/scipy-1.8.0::gentoo[-test]
+# required by sci-visualization/tensorboard-2.8.0::gentoo
+# required by sci-libs/tensorflow-2.8.0::gentoo[python]
+# required by sci-libs/keras-2.8.0::gentoo
+# required by sci-libs/tensorflow-estimator-2.8.0::gentoo
+>=dev-python/numpy-1.22.3 lapack
+
+
+sci-libs/tensorflow cuda
+
+# required by sci-libs/tensorflow-2.8.0::gentoo[cuda]
+# required by sci-visualization/tensorboard-2.8.0::gentoo
+=dev-util/nvidia-cuda-toolkit-11.5.1-r1 profiler
+
+# required by app-admin/pass-1.7.4-r2::gentoo
+# required by mail-mta/protonmail-bridge-bin-2.1.2::bentoo
+# required by mail-mta/protonmail-bridge-bin (argument)
+>=media-gfx/qrencode-4.1.1 png
+
+media-video/mpv lua_single_target_luajit
+
+kde-apps/okular epub
+
+media-gfx/gimp jpeg2k webp
+
+media-sound/jack2 ieee1394
+
+sys-fs/dmraid intel_led led
+
+sys-kernel/genkernel-next dmraid iscsi mdadm
+
+sys-process/htop lm-sensors
+
+app-i18n/man-pages-l10n -l10n_fa
+
+
+# required by kde-frameworks/plasma-5.95.0-r2::gentoo
+# required by kde-frameworks/krunner-5.95.0::gentoo
+# required by kde-plasma/kdeplasma-addons-5.24.5-r1::gentoo
+# required by kde-plasma/plasma-meta-5.24.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-frameworks/kconfig-5.95.0 qml
+
+# required by kde-plasma/plasma-meta-5.25.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-plasma/kwin-5.25.0 lock
+
+sys-apps/systemd-utils boot
+
+# required by app-containers/lxc-5.0.0::gentoo[tools,caps]
+# required by app-containers/lxd-5.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libcap-2.65 static-libs
+
+
+media-libs/libwebp gif
+
+dev-db/postgresql icu llvm xml
+
+net-misc/curl -adns

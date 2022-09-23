@@ -1,0 +1,21 @@
+# necessary to load the xterm, xclock...
+x11-apps/xinit twm
+
+# improviment.
+media-libs/mesa d3d9 lm-sensors opencl
+
+x11-base/xorg-server xvfb
+
+x11-drivers/nvidia-drivers gtk3 uvm
+
+media-libs/vulkan-loader layers
+
+x11-libs/libdrm libkms
+
+media-libs/libvpx svc
+
+www-client/w3m imlib
+
+media-libs/libvpx postproc
+
+x11-libs/libva utils

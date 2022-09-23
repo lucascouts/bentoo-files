@@ -1,0 +1,7 @@
+# Credit to "Michał Górny" -> https://blogs.gentoo.org/mgorny/2017/07/23/optimizing-ccache-using-per-package-caches/
+if [[ ${FEATURES} == *ccache* && ${EBUILD_PHASE_FUNC} == src_* ]]; then
+	if [[ ${CCACHE_DIR} == /var/cache/ccache ]]; then
+		export CCACHE_DIR=/var/cache/ccache/${CATEGORY}/${PN}:${SLOT}
+		mkdir -p "${CCACHE_DIR}" || die
+	fi
+fi

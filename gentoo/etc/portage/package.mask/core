@@ -1,0 +1,10 @@
+# Stable versions.
+# >www-client/chromium-
+# >www-client/google-chrome-
+
+# Higher versions isn't compatible with openrc anymore.
+>www-misc/profile-sync-daemon-5.75
+
+# Mask any version.
+dev-java/oracle-jre-bin
+dev-java/oracle-jdk-bin
